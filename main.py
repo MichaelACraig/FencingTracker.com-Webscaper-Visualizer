@@ -4,32 +4,63 @@ import pandas
 import requests
 
 #Pulls the name data from the top 50 clubs on FencingTracker
-def pullLargestClubs():
+def pullLargestClubs(outputCSV):
+    #Header element necessary for website access
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+    }
     url = "https://www.fencingtracker.com/largestclubs"
+    finalLinks = []
 
+    
     #Layered hyperlinks from the starting URL. Below shows hyperlink path for data collection:
     #Largest Clubs -> Club's rating -> Club's Members -> Individual Member Info -> /history to access Bout History
     # 4 Hyperlinks to move through Club's Members needs to loop through all members
 
-    response = requests.get(url)
+    response = requests.get(url, headers=headers)
     doc = BeautifulSoup(response.text, 'html.parser')
 
-    #Pulls all hyperlink data from the url webpage; Slices the top 50
-    clubLinks = [link['href'] for link in doc.find_all('a', href=True)][:50]
+    #Pulls all hyperlink data from the url webpage; Slices the top 500
+    clubLinks = [link['href'] for link in doc.find_all('a', href=True)][:500]
 
     for clubLink in clubLinks:
         #First layer; Club URL from largestClubs page
         clubURL = "https://fencingtracker.com" + clubLink
-        clubResponse = requests.get(clubURL)
+        clubResponse = requests.get(clubURL, headers=headers)
         clubSoup = BeautifulSoup(clubResponse.text, 'html.parser')
 
         #Second Layer; Club Ratings Page from Club URL
-        ratingLink = clubSoup.find('a', {'id': ''})
+        ratingLinks = clubSoup.find_all('a')
+        
+        for ratingLink in ratingLinks:
+            href = ratingLink.get('href')
 
-        #Third Layer; Names Page from Club Ratings Page
-        #Needs to be looped!
-            #Fourth layer: Name with access to the /history
+            #Cleaning function; removes the /topclubs/... hyperlink since it is a repetitive call; Will pretty much loop forever if branched down
+            if href == "/topclubs/epee" or href == "/topclubs/foil" or href == "/topclubs/epee" or href == "/topclubs/saber":
+                continue
 
+            #Third Layer; Names Page from Club Ratings Page
+            clubMemebersPage = "https://fencingtracker.com" + href
+            pageResponse = requests.get(clubMemebersPage, headers=headers)
+            membersSoup = BeautifulSoup(pageResponse.text, "html.parser")
+
+            membersLinks = membersSoup.find_all('a')
+
+            for memberLink in membersLinks:
+                href = memberLink.get('href')
+
+                if href is not None and href.startswith("/p/"):
+                    finalLinks.append(href)
+
+            #FOURTH LAYER IS UNNECESSARY SINCE WE CAN JUST APPEND /history LATER
+
+            #Output to CSV file
+            with open(outputCSV, 'w', newline='') as csvfile:
+                        writer = csv.writer(csvfile)
+                        writer.writerow(['URL TAG'])
+                        for link in finalLinks:
+                             writer.writerow([link])
+            
 
 
 #Main scraping method; Pulls URLs in .csv created in pullLinks to generate data from FencingTracker
@@ -90,6 +121,7 @@ def scrapeAndExport(url, outputFile):
             statsArray[index] = last_cell.text
             index += 1
 
+    print("Appending is complete")
     #Reset index for tidiness
     index = 0
 
@@ -101,5 +133,7 @@ def scrapeAndExport(url, outputFile):
         writer.writerow(statsArray)
 
 #Example Call 
-scrapeAndExport('www.fencingtracker.com/p/100309761/Johnathan-Ballou/history',
-        '/Users/michelecraig/Desktop/My Project Files/Python/FencingTrackerCSVOutputs/output.csv')
+#scrapeAndExport('https://www.fencingtracker.com/p/100309761/Johnathan-Ballou/history',
+#        '/Users/michelecraig/Desktop/My Project Files/Python/FencingTrackerCSVOutputs/output.csv')
+
+pullLargestClubs('/Users/michelecraig/Desktop/My Project Files/Python/FencingTrackerCSVOutputs/URLInputs.csv')
