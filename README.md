@@ -32,4 +32,6 @@ Node structure (Visualizations Sake):
       Opponent
       Win/Loss of Bout
       Opponent's Club
-    
+
+Devlog:
+-Webscraper is complete for up to 997 individuals. Need to bugfix PullLargestClubs to be able to scrape the entirety of the webpage 
