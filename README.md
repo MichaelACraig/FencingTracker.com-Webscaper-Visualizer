@@ -1,9 +1,10 @@
-# FencingTrackerWebScraper
-Backend for Fencing Tracker Web Scraper
+# FencingTracker.com Webscarper and Visualizer
+Webscraping script for FencingTracker.com
 
 Utilizes BeautifulSoup Library to scrape user data into .csv format to be utilized by a multitude of different use cases
 
 SETUP/INSTALL:
+Ran in a virtual enviornment
 1. install BeautifulSoup (pip3 install beautifulsoup)
 2. install requests (pip3 install requests)
 
