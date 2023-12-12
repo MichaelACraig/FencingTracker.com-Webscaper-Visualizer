@@ -193,7 +193,8 @@ def scrapeAndExport(inputFile, url, outputFile):
                 writer.writerow(statsArray)
 
 
-#Chain of function calls to run the program; Run each line individually
+#Chain of function calls to run the program; 
+#Uncomment at each line for individual cases or uncomment all if you do not have other .csv files since the program will overwrite them
 
 #pullLargestClubs('/Users/michaelcraig/Desktop/ProjectOutputs/LargestClubsURLOutputs.csv')
 #cleanURLs('/Users/michaelcraig/Desktop/ProjectOutputs/LargestClubsURLOutputs.csv', '/Users/michaelcraig/Desktop/ProjectOutputs/CleanedLargestClubsURLOutputs.csv')

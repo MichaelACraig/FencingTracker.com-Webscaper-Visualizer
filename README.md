@@ -1,12 +1,12 @@
 # FencingTracker.com Webscarper and Visualizer
 Webscraping script for FencingTracker.com
 
-Utilizes BeautifulSoup Library to scrape user data into .csv format to be utilized by a multitude of different use cases
+Utilizes BeautifulSoup4 Library to scrape user data (All-time Statistics) into .csv format to be utilized by a multitude of different use cases
 
 SETUP/INSTALL:
-Ran in a virtual enviornment
-1. install BeautifulSoup (pip3 install beautifulsoup)
-2. install requests (pip3 install requests)
+Set up in a Virtual Enviornment and install these libraries (python3 -m venv venv)
+    1. BeautifulSoup4 (pip3 install beautifulsoup4)
+    2. requests (pip3 install requests)
 
 
 Node structure (Visualizations Sake):
@@ -24,15 +24,6 @@ Node structure (Visualizations Sake):
     DE Losses
     DE Ratio
 
-  Competition Data (Map/Dictionary Implementation, two keys (name and competition name):
-    Name of Competition
-    Date of Competition
-    Event
-    Placing in Competition
-    BOUT DATA
-      Opponent
-      Win/Loss of Bout
-      Opponent's Club
-
 Devlog:
--Webscraper is complete for up to 997 individuals. Need to bugfix PullLargestClubs to be able to scrape the entirety of the webpage 
+-Webscraper is complete and can scrape all data from the /largestclubs page, which includes all competitive members of all clubs
+-Webscraper does not include unattached members; Find workaround? Might need a dynamic approach to solve (Selenium)
