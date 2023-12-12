@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import csv
-import pandas
 import requests
 import os
 
@@ -20,54 +19,101 @@ def pullLargestClubs(outputCSV):
     response = requests.get(url, headers=headers)
     doc = BeautifulSoup(response.text, 'html.parser')
 
-    #Pulls all hyperlink data from the url webpage; Slices the top 500
-    clubLinks = [link['href'] for link in doc.find_all('a', href=True)][:500]
+    #Pulls all hyperlink data from the url webpage
+    clubLinks = [link['href'] for link in doc.find_all('a', href=True)]
 
-    for clubLink in clubLinks:
+    #Cleans clubLinks array before scraping portion of the algorithm
+    excludedClubLinks = [
+        "/",
+        "#",
+        "/login",
+        "/signup",
+        "/largestclubs",
+        "/largestclubs/by-non-competitive",
+        "/largestclubs/by-total",
+        "/privacy",
+        "/contact",
+        "/about",
+        "/faq",
+        "/discord",
+        "/topclubs/epee",
+        "/topclubs/foil",
+        "/topclubs/saber",
+        "/np/ranking/dv1me",
+        "/np/ranking/dv1wf",
+        "/np/ranking/dv1ws",
+        "/np/ranking/dv1mf",
+        "/np/ranking/dv1ms",
+        "/np/ranking/dv1we",
+        "/strength/ME/D",
+        "/strength/MF/D",
+        "/strength/MS/D",
+        "/strength/WE/D",
+        "/strength/WF/D",
+        "/strength/WS/D",
+    ]
+    cleanClubLinks = [clubLink for clubLink in clubLinks if clubLink not in excludedClubLinks]    
+ 
+    for cleanClubLink in cleanClubLinks:
         #First layer; Club URL from largestClubs page
-        clubURL = "https://fencingtracker.com" + clubLink
+        clubURL = "https://fencingtracker.com" + cleanClubLink
         clubResponse = requests.get(clubURL, headers=headers)
         clubSoup = BeautifulSoup(clubResponse.text, 'html.parser')
 
         #Second Layer; Club Ratings Page from Club URL
-        ratingLinks = clubSoup.find_all('a')
-        
-        for ratingLink in ratingLinks:
-            href = ratingLink.get('href')
+        secondLayerLinks = [
+            "/epee",
+            "/foil",
+            "/saber",
+        ]
 
-            #Cleaning function; removes the /topclubs/... hyperlink since it is a repetitive call; Will pretty much loop forever if branched down
-            if href == "/topclubs/epee" or href == "/topclubs/foil" or href == "/topclubs/saber" or href == "#":
-                continue
+        for secondLayerLink in secondLayerLinks:
+            secondLayerSearchLink = "https://fencingtracker.com" + cleanClubLink + secondLayerLink
+            searchResponse = requests.get(secondLayerSearchLink, headers=headers)
 
-            #Third Layer; Names Page from Club Ratings Page
-            if href is not None:
-                clubMemebersPage = "https://fencingtracker.com" + href
-                pageResponse = requests.get(clubMemebersPage, headers=headers)
-                membersSoup = BeautifulSoup(pageResponse.text, "html.parser")
+            if searchResponse.status_code == 200:
 
-                membersLinks = membersSoup.find_all('a')
+                #Third Layer; Member page from Club Ratings Page
+                    membersSoup = BeautifulSoup(searchResponse.text, 'html.parser')
+                    membersLinks = membersSoup.find_all('a')
 
-                for memberLink in membersLinks:
-                    href = memberLink.get('href')
-                    print(str(href))
+                    for memberLink in membersLinks:
+                        if memberLink not in excludedClubLinks:
+                            href = memberLink.get('href')
 
-                    if href is not None and href.startswith("/p/"):
-                        finalLinks.append(href)
-                        length = len(finalLinks)
-                        print(str(length))
+                            if href is not None and href.startswith("/p/"):
+                                finalLinks.append(href)
+                                length = len(finalLinks)
 
-                #FOURTH LAYER IS UNNECESSARY SINCE WE CAN JUST APPEND /history LATER
+                                #Output to CSV file
+                                with open(outputCSV, 'w', newline='') as csvfile:
+                                    writer = csv.writer(csvfile)
+                                    writer.writerow(['URL TAG'])
+                                    for link in finalLinks:
+                                        writer.writerow([link])
 
-                #Output to CSV file
-    with open(outputCSV, 'w', newline='') as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(['URL TAG'])
-        for link in finalLinks:
-            writer.writerow([link])
+                #FOURTH LAYER IS UNNECESSARY SINCE WE CAN JUST APPEND /history LATER    
             
+#Secondary Cleaning; All duplicate files are placed into a set, which is then outputted to a .csv file 
+def cleanURLs(inputFile, outputFile):
+    with open(inputFile, 'r') as csvfile:
+        csvReader = csv.reader(csvfile)
+        next(csvReader)
+
+        #Place all items into a set to remove duplicates
+        duplicateSet = set()
+        for row in csvReader:
+            duplicateSet.add(row[0])
+
+        #Output to CSV file
+        with open(outputFile, 'w', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(['URL TAG'])
+            for link in duplicateSet:
+                writer.writerow([link])
 
 
-#Main scraping method; Pulls URLs in .csv created in pullLinks to generate data from FencingTracker
+#Main Scraping Function; Pulls URLs in .csv created in pullLinks to generate data from FencingTracker
 def scrapeAndExport(inputFile, url, outputFile):
     #Header element necessary for website access
     headers = {
@@ -146,8 +192,9 @@ def scrapeAndExport(inputFile, url, outputFile):
                     writer.writerow(['NAME', 'CLUBS', 'ATWins', 'ATLosses', 'winRatio', 'poolWins', 'poolLosses', 'poolWinRatio', 'DEWins', 'DELosses', 'DEWinRatio'])
                 writer.writerow(statsArray)
 
-#Example Call 
-scrapeAndExport('/Users/michelecraig/Desktop/My Project Files/Python/FencingTrackerCSVOutputs/URLInputs.csv', 'https://www.fencingtracker.com', '/Users/michelecraig/Desktop/My Project Files/Python/FencingTrackerCSVOutputs/output.csv')
 
-#pullLargestClubs('/Users/michelecraig/Desktop/My Project Files/Python/FencingTrackerCSVOutputs/URLInputs.csv')
-#print("complete")
+#Chain of function calls to run the program; Run each line individually
+
+#pullLargestClubs('/Users/michaelcraig/Desktop/ProjectOutputs/LargestClubsURLOutputs.csv')
+#cleanURLs('/Users/michaelcraig/Desktop/ProjectOutputs/LargestClubsURLOutputs.csv', '/Users/michaelcraig/Desktop/ProjectOutputs/CleanedLargestClubsURLOutputs.csv')
+#scrapeAndExport('/Users/michaelcraig/Desktop/ProjectOutputs/CleanedLargestClubsURLOutputs.csv', 'https://fencingtracker.com', '/Users/michaelcraig/Desktop/ProjectOutputs/ScrapedData.csv')
