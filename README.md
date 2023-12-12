@@ -1,4 +1,4 @@
-# FencingTracker.com Webscarper and Visualizer
+# FencingTracker.com Webscraper and Visualizer
 Webscraping script for FencingTracker.com
 
 Utilizes BeautifulSoup4 Library to scrape user data (All-time Statistics) into .csv format to be utilized by a multitude of different use cases
