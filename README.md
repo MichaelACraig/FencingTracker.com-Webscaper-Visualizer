@@ -12,26 +12,28 @@ Set up in a Virtual Enviornment (python3 -m venv venv) and activate (venv/Script
     3. Pyvis (pip3 inbstall pyvis)
 
 WALKTHROUGH:
-  1. Lines 199-201 in scraper.py. Route your directory to you are currently storing your repo instance and link to Data file so files can be written
+  1. Lines 199-201 in scraper.py: Route your directory to you are currently storing your repo instance and link to Data file so files can be written
       - Files are already written for you, so no need and runtime is really wrong, but if you want to update the Data (i.e FencingTracker updates) do step 1
   2. Uncomment commands and run scraper.py
-  3.            
+  3. Line 81 in visualizer.py: Route your directory to you are currently storing your repo instance and link to Data file so files can be written
+  4. Uncomment command and run visualizer.py          
 
 
-Node structure (Visualizations Sake):
+Depending on the graph being visualized, below is what the Node will store in order of hierarchy
   NAME
   CLUB AFFILIATION
+  All-Time Win/Loss Statistics
 
-  All-time Win/Loss Statistics (Array Implementation):
-    Wins
-    Losses
-    Win Ratio
-    Pool Wins
-    Pool Losses
-    Pool Win Ratio
-    DE Wins
-    DE Losses
-    DE Ratio
+All-time Win/Loss Statistics (Array Implementation):
+  Wins
+  Losses
+  Win Ratio
+  Pool Wins
+  Pool Losses
+  Pool Win Ratio
+  DE Wins
+  DE Losses
+  DE Ratio
 
 Devlog:
 -Webscraper is complete and can scrape all data from the /largestclubs page, which includes all competitive members of all clubs

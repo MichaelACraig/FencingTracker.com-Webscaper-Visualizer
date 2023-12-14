@@ -27,20 +27,16 @@ class User:
         self.DELosses = DELosses
         self.DEWinRatio = DEWinRatio
 
-#Retrieve .csv file and create the graph
-        
-def edgeExists(net, node1, node2):
-    edges = net.get_edges()
-    return any((edge['from'] == node1 and edge['to'] == node2) or (edge['from'] == node2 and edge['to'] == node1) for edge in edges)
-    
 def createFirstGraph(inputFile):
     startTime= time.time()
+
     #FIRST GRAPH: Cyclic and undirected
     net = Network(height=800, width="100%", bgcolor="#222222", font_color="white")
     net.barnes_hut()
 
     #Create a dictionary that stores the name of a group, and nodes that are in that group; If the group is not in the dictionary, add it
     groups = {}
+    visited = []
 
     with open(inputFile, 'r') as csvfile:
         csvReader = csv.reader(csvfile, delimiter=",")
@@ -50,14 +46,23 @@ def createFirstGraph(inputFile):
             #For each row in the .csv file, create a node
             user = User(row[0],row[1],row[2],row[3],row[4],row[5],row[6],row[7],row[8],row[9],row[10])
 
-            #NEED EXCEPTION: If there is a node with the same name and its group is different, add the node to both groups
+            
             net.add_node(user.NAME, group=user.CLUBS)
 
             #If there is not a key in the groups dictionary, add it to the dictionary
             if user.CLUBS not in groups:
                 groups[user.CLUBS] = [user.NAME]
+                visited.append(user.NAME)
+            #If there is already a node under the user.NAME and its user.CLUBS
+            elif user.NAME in visited and user.NAME not in groups[user.CLUBS]:
+                print("Duplicate name in a different club found")
+
+            #If a user is in multiple clubs, add them to the dictionary under the clubs they are in
+            elif '/' in user.CLUBS:
+                 print('User is in multiple clubs')     
             else:    
                 groups[user.CLUBS].append(user.NAME)
+                visited.append(user.NAME)
 
             #For every group in the groups dictionary
         for group in groups:
@@ -65,10 +70,9 @@ def createFirstGraph(inputFile):
             for i in range(len(groups[group])):
                 #for the first node + 1 and onward in the group
                 for j in range(i+1, len(groups[group])):
-                        #Create an edge between the two nodes
-                        if(edgeExists(net, groups[group][i], groups[group][j]) == False):
+                            #Create edge between nodes
                             net.add_edge(groups[group][i], groups[group][j])
-                            print("Edge created: " + str(net.num_edges()))
+                            
     endTime = time.time()
     elapsed_time = endTime - startTime
 
@@ -77,5 +81,4 @@ def createFirstGraph(inputFile):
 
     net.show("FirstGraph.html", notebook=False)
 
-
-createFirstGraph("C:\\Users\\13212\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Data")
+createFirstGraph("C:\\Users\\13212\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Data\\VisualizationData.csv")
