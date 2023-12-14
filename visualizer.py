@@ -50,6 +50,7 @@ def createFirstGraph(inputFile):
             #For each row in the .csv file, create a node
             user = User(row[0],row[1],row[2],row[3],row[4],row[5],row[6],row[7],row[8],row[9],row[10])
 
+            #NEED EXCEPTION: If there is a node with the same name and its group is different, add the node to both groups
             net.add_node(user.NAME, group=user.CLUBS)
 
             #If there is not a key in the groups dictionary, add it to the dictionary
