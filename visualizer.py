@@ -34,7 +34,7 @@ def edgeExists(net, node1, node2):
     return any((edge['from'] == node1 and edge['to'] == node2) or (edge['from'] == node2 and edge['to'] == node1) for edge in edges)
     
 def createFirstGraph(inputFile):
-    
+    startTime= time.time()
     #FIRST GRAPH: Cyclic and undirected
     net = Network(height=800, width="100%", bgcolor="#222222", font_color="white")
     net.barnes_hut()
@@ -68,8 +68,8 @@ def createFirstGraph(inputFile):
                         if(edgeExists(net, groups[group][i], groups[group][j]) == False):
                             net.add_edge(groups[group][i], groups[group][j])
                             print("Edge created: " + str(net.num_edges()))
-
-    elapsed_time = time.time()
+    endTime = time.time()
+    elapsed_time = endTime - startTime
 
     print("Elapsed time: " + str(elapsed_time) + " seconds!")
     print("Edges created: " + str(net.num_edges()))
@@ -77,4 +77,4 @@ def createFirstGraph(inputFile):
     net.show("FirstGraph.html", notebook=False)
 
 
-createFirstGraph("/Users/michaelcraig/Desktop/ProjectOutputs/ScrapedData.csv")
+createFirstGraph("C:\\Users\\13212\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Data")
