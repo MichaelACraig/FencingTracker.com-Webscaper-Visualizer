@@ -43,28 +43,26 @@ def createFirstGraph(inputFile):
         next(csvReader)
 
         for row in csvReader:
-            #For each row in the .csv file, create a node
-            user = User(row[0],row[1],row[2],row[3],row[4],row[5],row[6],row[7],row[8],row[9],row[10])
 
-            
-            net.add_node(user.NAME, group=user.CLUBS)
+            # Create a user instance from the csv file
+            user = User(row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], row[9], row[10])
 
-            #If there is not a key in the groups dictionary, add it to the dictionary
+            # If the group has not been created yet, create it
             if user.CLUBS not in groups:
-                groups[user.CLUBS] = [user.NAME]
-                visited.append(user.NAME)
-            #If there is already a node under the user.NAME and its user.CLUBS
-            elif user.NAME in visited and user.NAME not in groups[user.CLUBS]:
-                print("Duplicate name in a different club found")
+                groups[user.CLUBS] = []
 
-            #If a user is in multiple clubs, add them to the dictionary under the clubs they are in
-            elif '/' in user.CLUBS:
-                 print('User is in multiple clubs')     
-            else:    
+            # If the node has not been created yet, create it and insert it into its respective group; Label it as a visited node
+            if user.NAME not in visited:
                 groups[user.CLUBS].append(user.NAME)
+                net.add_node(user.NAME, group=user.CLUBS)
                 visited.append(user.NAME)
 
-            #For every group in the groups dictionary
+            # If the node under that name has been created, but the club is different, it is a different person; add them to their respective group
+            elif user.NAME not in groups[user.CLUBS]:
+                groups[user.CLUBS].append(user.NAME)
+                net.add_node(user.NAME, group=user.CLUBS) 
+
+        #For every group in the groups dictionary
         for group in groups:
             #For the first node and onward in the group
             for i in range(len(groups[group])):
