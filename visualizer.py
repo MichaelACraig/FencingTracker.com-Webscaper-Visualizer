@@ -79,4 +79,4 @@ def createFirstGraph(inputFile):
 
     net.show("FirstGraph.html", notebook=False)
 
-createFirstGraph("C:\\Users\\13212\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Data\\VisualizationData.csv")
+createFirstGraph("C:\\Users\\13212\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Scraper1Outputs\\VisualizationData.csv")

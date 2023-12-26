@@ -196,6 +196,6 @@ def scrapeAndExport(inputFile, url, outputFile):
 #Chain of function calls to run the program; 
 #Uncomment at each line for individual cases or uncomment all if you do not have other .csv files since the program will overwrite them
 
-#pullLargestClubs('C:\\Users\\13212\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Outputs\\LargestClubsURLOutputs.csv')
-#cleanURLs('C:\\Users\\13212\\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Outputs\\LargestClubsURLOutputs.csv', 'C:\\Users\13212\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Outputs\\CleanedLargestClubsURLOutputs.csv')
-#scrapeAndExport('C:\\Users\\13212\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Outputs\\CleanedLargestClubsURLOutputs.csv', 'https://fencingtracker.com', 'C:\\Users\\13212\\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Outputs\\ScrapedData.csv')
+#pullLargestClubs('C:\\Users\\13212\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Scraper1Outputs\\LargestClubsURLOutputs.csv')
+#cleanURLs('C:\\Users\\13212\\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Scraper1Outputs\\LargestClubsURLOutputs.csv', 'C:\\Users\13212\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Scraper1Outputs\\CleanedLargestClubsURLOutputs.csv')
+#scrapeAndExport('C:\\Users\\13212\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Scraper1Outputs\\CleanedLargestClubsURLOutputs.csv', 'https://fencingtracker.com', 'C:\\Users\\13212\\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Scraper1Outputs\\ScrapedData.csv')
