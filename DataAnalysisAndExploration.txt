@@ -1,0 +1,30 @@
+Data Analysis Questions: <br>
+
+    - For All Time Data, is there a correlation for All-Time wins and losses depending on a person's region? <br> 
+        - (i.e: Is there an increase in wins for members in clubs located in the Northeastern region of the US?) <br>
+
+    - EDGE CASE ANALYSIS: Will individuals in multiple different clubs perform better than individuals that are only in one club? <br>
+        - Need to parse current data and if there is a / in the user.CLUBS, then that person is in multiple clubs
+
+    - Has the pandemic affected the number overall win rate of competitors? <br>
+        - Data to collect: <br>
+            - Number of competitions per individuals <br>
+            - Overall win rate during 2020-2021 season and 2021-2022 season for comparison <br>
+
+
+
+    Update/Create a new Webscraper to gather this Data: <br>
+
+        - Create a folder that is named under the individual. Inside file, store a .txt file named the club and two .csv files named: 
+
+            - <USERNAME>IData: Individual Data; Reconfigure to make individual .csv files instead of one big master <br>
+                - Each .csv contains all table data for the individual statistics <br>
+
+            - <NAME>Cdata: Competition Data for the Individual <br>                 
+
+
+
+
+            
+
+    
