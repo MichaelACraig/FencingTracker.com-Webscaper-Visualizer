@@ -17,4 +17,22 @@ WALKTHROUGH: <br>
   3. Line 81 in visualizer.py: Route your directory to you are currently storing your repo instance where the Outputs file is stored and link to Data file so files can be written <br>
   4. Uncomment command and run visualizer.py. Using pyvis for formalities sake and practice with visualizer; Also takes a long time to load. Files are already outputted for you in Outputs <br>
   5. Line 81 in regionFilter.py: Route directory to where you are currently storing your repo instance where the Outputs is stored. <br>
-  6. Uncomment command and run regionFilter.py to retrieve Regional Data and Two Club Fencer Data       
+  6. Uncomment command and run regionFilter.py to retrieve Regional Data and Two Club Fencer Data <br>
+  
+  <br>
+  <br>
+  <br>
+
+ANALYSIS WALKTHROUGH: <br>
+**IF YOU'RE LOOKING TO REPLICATE THIS ANALYSIS, FOLLOW THESE STEPS, ELSE THEY'RE ALL LOADED FOR YOU**
+
+1. Install Pandoc if using a IDE other than RStudio: https://github.com/jgm/pandoc/releases/tag/3.1.11.1 <br>
+
+2. Install the following packages to your local machine or venv: <br>
+    -leaflet <br>
+    - htmlwidgets <br>
+    - <br>
+
+2. Set your working directory to where you have your repo stored <br>         
+
+
