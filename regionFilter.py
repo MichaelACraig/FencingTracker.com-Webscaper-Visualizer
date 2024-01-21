@@ -78,4 +78,4 @@ def regionFilter(inputFile,edgeCaseFile,outputFile):
 
     print("Complete")         
 
-regionFilter("/Users/michaelcraig/Desktop/Projects/FencingTracker.com-Webscaper-Visualizer/Outputs/ScrapedData.csv","/Users/michaelcraig/Desktop/Projects/FencingTracker.com-Webscaper-Visualizer/Outputs/EdgeCases.csv", "/Users/michaelcraig/Desktop/Projects/FencingTracker.com-Webscaper-Visualizer/Outputs/RegionData.csv")
+regionFilter("/Users/michaelcraig/Desktop/Projects/FencingTracker.com-Webscaper-Visualizer/Outputs/ScrapedData.csv","/Users/michaelcraig/Desktop/Projects/FencingTracker.com-Webscaper-Visualizer/Outputs/TwoClubFencers.csv", "/Users/michaelcraig/Desktop/Projects/FencingTracker.com-Webscaper-Visualizer/Outputs/RegionData.csv")
