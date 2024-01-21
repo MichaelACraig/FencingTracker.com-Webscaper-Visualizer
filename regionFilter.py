@@ -1,7 +1,28 @@
 import csv
 import shutil
 
-def regionFilter(inputFile,edgeCaseFile):
+#Lists containing all US states and their respective regions
+USStates = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida',
+            'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana',
+            'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana',
+            'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina',
+            'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina',
+            'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia',
+            'Wisconsin', 'Wyoming']
+
+Midwest = ['Illinois', 'Indiana', 'Iowa', 'Kansas', 'Michigan', 'Minnesota', 'Missouri', 'Nebraska', 'North Dakota',
+           'Ohio', 'South Dakota', 'Wisconsin']
+
+West = ['Alaska', 'Arizona', 'California', 'Colorado', 'Hawaii', 'Idaho', 'Montana', 'Nevada', 'New Mexico',
+        'Oregon', 'Utah', 'Washington', 'Wyoming']
+
+South = ['Alabama', 'Arkansas', 'Delaware', 'Florida', 'Georgia', 'Kentucky', 'Louisiana', 'Maryland', 'Mississippi',
+         'North Carolina', 'Oklahoma', 'South Carolina', 'Tennessee', 'Texas', 'Virginia', 'West Virginia']
+
+North = ['Connecticut', 'Maine', 'Massachusetts', 'New Hampshire', 'New Jersey', 'New York', 'Pennsylvania',
+         'Rhode Island', 'Vermont']
+
+def regionFilter(inputFile,edgeCaseFile,outputFile):
     #Create a copy of the currenty .csv file; backup purposes
     backupFile = inputFile.replace('.csv', '_backup.csv')
     shutil.copy(inputFile, backupFile)
@@ -15,7 +36,7 @@ def regionFilter(inputFile,edgeCaseFile):
     fieldnames.append('Region')  
 
     #Edit the inputFile to include the new column
-    with open(inputFile, 'w', newline='') as csvOutput:    
+    with open(outputFile, 'w', newline='') as csvOutput:    
         csvWriter = csv.DictWriter(csvOutput, fieldnames=fieldnames)
         csvWriter.writeheader()
 
@@ -35,19 +56,26 @@ def regionFilter(inputFile,edgeCaseFile):
             #Separate the US into four regions; West, Midwest, Southern, and Northern regions
 
             #Using a list of all US states, if a club has a state in its name, assign that state to the person in the region column
-            #If the person is in the US, place them in their respective region
-                #Using a list for Midwest, West, South, and North regions, if a person's state is in one of these lists, replace the state with the region
+            for state in USStates:
+                if state in USStates and state in row['CLUBS']:
+                    #If the person is in the US, place them in their respective region
+                    if state in Midwest:
+                        row['Region'] = 'Midwest'
 
-            #If the person is not in the US, assign them to the 'Ambiguous' region; Could be International or just an ambiguous club name
-            #We will have to manually check these people later
+                    elif state in West:
+                        row['Region'] = 'West'
 
+                    elif state in South:
+                        row['Region'] = 'South'
 
+                    #Else clause: Person is in the Northern region of the US
+                    else:
+                        row['Region'] = 'North'    
 
+                    #Write the row to the .csv file
+                    csvWriter.writerow(row)
+                    continue
 
-            #Test script
-            row['Region'] = 'test'
-            csvWriter.writerow(row)
-        
     print("Complete")         
-            
-regionFilter("/Users/michaelcraig/Desktop/Projects/FencingTracker.com-Webscaper-Visualizer/Scraper1Outputs/ScrapedData.csv","/Users/michaelcraig/Desktop/Projects/FencingTracker.com-Webscaper-Visualizer/Scraper1Outputs/EdgeCases.csv")      
+
+regionFilter("/Users/michaelcraig/Desktop/Projects/FencingTracker.com-Webscaper-Visualizer/Outputs/ScrapedData.csv","/Users/michaelcraig/Desktop/Projects/FencingTracker.com-Webscaper-Visualizer/Outputs/EdgeCases.csv", "/Users/michaelcraig/Desktop/Projects/FencingTracker.com-Webscaper-Visualizer/Outputs/RegionData.csv")
