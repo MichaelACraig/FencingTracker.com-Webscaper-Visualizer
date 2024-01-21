@@ -29,9 +29,11 @@ ANALYSIS WALKTHROUGH: <br>
 1. Install Pandoc if using a IDE other than RStudio: https://github.com/jgm/pandoc/releases/tag/3.1.11.1 <br>
 
 2. Install the following packages to your local machine or venv: <br>
-    -leaflet <br>
+    - leaflet <br>
     - htmlwidgets <br>
-    - <br>
+    - ggplot2 <br>
+    - maps <br>
+    - sf <br>
 
 2. Set your working directory to where you have your repo stored <br>         
 
