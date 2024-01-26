@@ -1,1093 +1,613 @@
-NAME,CLUBS,ATWins,ATLosses,winRatio,poolWins,poolLosses,poolWinRatio,DEWins,DELosses,DEWinRatio,Region
+NAME,CLUBS,ATWins,ATLosses,winRatio,poolWins,poolLosses,poolWinRatio,DEWins,DELosses,DEWinRatio,State,Region
 "
-                    Maciek Zmyslowski",Illinois Fencing Academy,146,21,87.4%,96,11,89.7%,50,10,83.3%,Midwest
+                    Maciek Zmyslowski",Illinois Fencing Academy,146,21,87.4%,96,11,89.7%,50,10,83.3%,Illinois,Midwest
 "
-                    Tyrese Goldson",South Florida Fencing Club,104,85,55.0%,77,60,56.2%,27,25,51.9%,South
+                    Tyrese Goldson",South Florida Fencing Club,104,85,55.0%,77,60,56.2%,27,25,51.9%,Florida,South
 "
-                    Charlotte Sanders",University Of Florida Fencing Club,59,88,40.1%,50,68,42.4%,9,20,31.0%,South
+                    Charlotte Sanders",University Of Florida Fencing Club,59,88,40.1%,50,68,42.4%,9,20,31.0%,Florida,South
 "
-                    Jennifer Anderson",Northern Colorado Fencers,50,84,37.3%,43,64,40.2%,7,20,25.9%,West
+                    Jennifer Anderson",Northern Colorado Fencers,50,84,37.3%,43,64,40.2%,7,20,25.9%,Colorado,West
 "
-                    Maksymilian Skarbonkiewicz",Oregon Fencing Alliance,310,168,64.9%,227,114,66.6%,83,54,60.6%,West
+                    Maksymilian Skarbonkiewicz",Oregon Fencing Alliance,310,168,64.9%,227,114,66.6%,83,54,60.6%,Oregon,West
 "
-                    Hudson Santana",New York Athletic Club,3,3,50.0%,3,2,60.0%,-,1,0.0%,North
+                    Hudson Santana",New York Athletic Club,3,3,50.0%,3,2,60.0%,-,1,0.0%,New York,North
 "
-                    Ethan Leung",Southwest Florida Fencing Academy,-,-,-,-,-,-,-,-,-,South
+                    Ethan Leung",Southwest Florida Fencing Academy,-,-,-,-,-,-,-,-,-,Florida,South
 "
-                    Xavier Reyes",Southern California Fencing Academy (SOCALFA),346,218,61.3%,264,149,63.9%,82,69,54.3%,West
+                    Xavier Reyes",Southern California Fencing Academy (SOCALFA),346,218,61.3%,264,149,63.9%,82,69,54.3%,California,West
 "
-                    Aleksandr Nudelman",South Florida Fencing Club,22,9,71.0%,15,6,71.4%,7,3,70.0%,South
+                    Aleksandr Nudelman",South Florida Fencing Club,22,9,71.0%,15,6,71.4%,7,3,70.0%,Florida,South
 "
-                    Timur Hursever",New York Fencing Academy,14,7,66.7%,10,4,71.4%,4,3,57.1%,North
+                    Timur Hursever",New York Fencing Academy,14,7,66.7%,10,4,71.4%,4,3,57.1%,New York,North
 "
-                    Michael Liu",Fencing Institute Of Texas,263,174,60.2%,202,118,63.1%,61,56,52.1%,South
+                    Michael Liu",Fencing Institute Of Texas,263,174,60.2%,202,118,63.1%,61,56,52.1%,Texas,South
 "
-                    John (Trace) Rutherfurd",University of Alabama,45,18,71.4%,33,10,76.7%,12,8,60.0%,South
+                    John (Trace) Rutherfurd",University of Alabama,45,18,71.4%,33,10,76.7%,12,8,60.0%,Alabama,South
 "
-                    Jeffery Sun",New York Fencing Academy,146,236,38.2%,115,185,38.3%,31,51,37.8%,North
+                    Jeffery Sun",New York Fencing Academy,146,236,38.2%,115,185,38.3%,31,51,37.8%,New York,North
 "
-                    Garrett Kane",Vermont Fencing Alliance,5,6,45.5%,5,4,55.6%,-,2,0.0%,North
+                    Garrett Kane",Vermont Fencing Alliance,5,6,45.5%,5,4,55.6%,-,2,0.0%,Vermont,North
 "
-                    Ryan Stevenson",Rhode Island Fencing Academy And Club,24,20,54.5%,17,15,53.1%,7,5,58.3%,North
+                    Ryan Stevenson",Rhode Island Fencing Academy And Club,24,20,54.5%,17,15,53.1%,7,5,58.3%,Rhode Island,North
 "
-                    Matthew Gosmeyer",Indianapolis Fencing Club,69,43,61.6%,52,27,65.8%,17,16,51.5%,Midwest
+                    Matthew Gosmeyer",Indianapolis Fencing Club,69,43,61.6%,52,27,65.8%,17,16,51.5%,Indiana,Midwest
 "
-                    Jeffrey zhang",Southern California Fencing Academy (SOCALFA),277,224,55.3%,203,167,54.9%,74,57,56.5%,West
+                    Jeffrey zhang",Southern California Fencing Academy (SOCALFA),277,224,55.3%,203,167,54.9%,74,57,56.5%,California,West
 "
-                    Eric Kitagawa",New Jersey Fencing Alliance,242,318,43.2%,193,252,43.4%,49,66,42.6%,North
+                    Eric Kitagawa",New Jersey Fencing Alliance,242,318,43.2%,193,252,43.4%,49,66,42.6%,New Jersey,North
 "
-                    Victoria Mo",New York Athletic Club,44,23,65.7%,31,16,66.0%,13,7,65.0%,North
+                    Victoria Mo",New York Athletic Club,44,23,65.7%,31,16,66.0%,13,7,65.0%,New York,North
 "
-                    Ethan Weinstein",University of Wisconsin-Madison,48,52,48.0%,37,37,50.0%,11,15,42.3%,Midwest
+                    Ethan Weinstein",University of Wisconsin-Madison,48,52,48.0%,37,37,50.0%,11,15,42.3%,Wisconsin,Midwest
 "
-                    David Dodin",New York Fencing Academy,573,162,78.0%,371,98,79.1%,202,64,75.9%,North
+                    David Dodin",New York Fencing Academy,573,162,78.0%,371,98,79.1%,202,64,75.9%,New York,North
 "
-                    Mary Jo Ratchford",Iowa City Fencing Center,11,20,35.5%,9,16,36.0%,2,4,33.3%,Midwest
+                    Mary Jo Ratchford",Iowa City Fencing Center,11,20,35.5%,9,16,36.0%,2,4,33.3%,Iowa,Midwest
 "
-                    Caleb Nykamp",West Michigan Fencing Academy,129,80,61.7%,93,58,61.6%,36,22,62.1%,Midwest
+                    Caleb Nykamp",West Michigan Fencing Academy,129,80,61.7%,93,58,61.6%,36,22,62.1%,Michigan,Midwest
 "
-                    Luke Kugler",New York Fencing Academy,249,151,62.3%,175,108,61.8%,74,43,63.2%,North
+                    Luke Kugler",New York Fencing Academy,249,151,62.3%,175,108,61.8%,74,43,63.2%,New York,North
 "
-                    Natalie Chaykina",Indianapolis Fencing Club,26,59,30.6%,22,47,31.9%,4,12,25.0%,Midwest
+                    Natalie Chaykina",Indianapolis Fencing Club,26,59,30.6%,22,47,31.9%,4,12,25.0%,Indiana,Midwest
 "
-                    Mitchell Schrank",University Of Michigan Fencing Club,17,14,54.8%,14,10,58.3%,3,4,42.9%,Midwest
+                    Mitchell Schrank",University Of Michigan Fencing Club,17,14,54.8%,14,10,58.3%,3,4,42.9%,Michigan,Midwest
 "
-                    Bailey Partridge",Rhode Island Fencing Academy And Club,-,-,-,-,-,-,-,-,-,North
+                    Bailey Partridge",Rhode Island Fencing Academy And Club,-,-,-,-,-,-,-,-,-,Rhode Island,North
 "
-                    Alexis Bienstock",University Of Pennsylvania NCAA,50,102,32.9%,38,81,31.9%,12,21,36.4%,North
+                    Alexis Bienstock",University Of Pennsylvania NCAA,50,102,32.9%,38,81,31.9%,12,21,36.4%,Pennsylvania,North
 "
-                    Robert Grainger",North Florida Fencing Club,42,54,43.8%,35,40,46.7%,7,14,33.3%,South
+                    Robert Grainger",North Florida Fencing Club,42,54,43.8%,35,40,46.7%,7,14,33.3%,Florida,South
 "
-                    Drew Feldman",Delaware Valley Fencers Club-PA,321,195,62.2%,233,134,63.5%,88,61,59.1%,South
+                    Drew Feldman",Delaware Valley Fencers Club-PA,321,195,62.2%,233,134,63.5%,88,61,59.1%,Delaware,South
 "
-                    Alexandra Wong",New York Fencing Academy,291,293,49.8%,230,221,51.0%,61,72,45.9%,North
+                    Alexandra Wong",New York Fencing Academy,291,293,49.8%,230,221,51.0%,61,72,45.9%,New York,North
 "
-                    Lincoln Lopez",Florida Fencing Academy,55,61,47.4%,42,46,47.7%,13,15,46.4%,South
+                    Lincoln Lopez",Florida Fencing Academy,55,61,47.4%,42,46,47.7%,13,15,46.4%,Florida,South
 "
-                    David Zalewski",Virginia Tech Fencing Club,57,40,58.8%,45,27,62.5%,12,13,48.0%,South
+                    David Zalewski",Virginia Tech Fencing Club,57,40,58.8%,45,27,62.5%,12,13,48.0%,Virginia,South
 "
-                    Michael D'Asaro",Fencing Institute Of Texas,-,-,-,-,-,-,-,-,-,South
+                    Michael D'Asaro",Fencing Institute Of Texas,-,-,-,-,-,-,-,-,-,Texas,South
 "
-                    Oliver Sturn",Oregon Fencing Alliance,296,155,65.6%,225,100,69.2%,71,55,56.3%,West
+                    Oliver Sturn",Oregon Fencing Alliance,296,155,65.6%,225,100,69.2%,71,55,56.3%,Oregon,West
 "
-                    saanvi mallavarpu",Illinois Fencing Academy,256,180,58.7%,209,122,63.1%,47,58,44.8%,Midwest
+                    saanvi mallavarpu",Illinois Fencing Academy,256,180,58.7%,209,122,63.1%,47,58,44.8%,Illinois,Midwest
 "
-                    Jacob Stevens",Wildcat Fencing-University of Arizona,8,12,40.0%,7,9,43.8%,1,3,25.0%,West
+                    Jacob Stevens",Wildcat Fencing-University of Arizona,8,12,40.0%,7,9,43.8%,1,3,25.0%,Arizona,West
 "
-                    Mariana Guzman",Southern California Fencing Academy (SOCALFA),29,18,61.7%,22,12,64.7%,7,6,53.8%,West
+                    Mariana Guzman",Southern California Fencing Academy (SOCALFA),29,18,61.7%,22,12,64.7%,7,6,53.8%,California,West
 "
-                    Chandini Antal",The Ohio State University NCAA,8,50,13.8%,6,45,11.8%,2,5,28.6%,Midwest
+                    Chandini Antal",The Ohio State University NCAA,8,50,13.8%,6,45,11.8%,2,5,28.6%,Ohio,Midwest
 "
-                    Matthew Rodrigues",New Jersey Fencing Alliance,8,5,61.5%,8,3,72.7%,-,2,0.0%,North
+                    Matthew Rodrigues",New Jersey Fencing Alliance,8,5,61.5%,8,3,72.7%,-,2,0.0%,New Jersey,North
 "
-                    Emmett Rollo",Rhode Island Fencing Academy And Club,360,416,46.4%,277,314,46.9%,83,102,44.9%,North
+                    Emmett Rollo",Rhode Island Fencing Academy And Club,360,416,46.4%,277,314,46.9%,83,102,44.9%,Rhode Island,North
 "
-                    Kenneth-John Bell",University Of Tennessee Knoxville Fencing Club,31,14,68.9%,26,8,76.5%,5,6,45.5%,South
+                    Kenneth-John Bell",University Of Tennessee Knoxville Fencing Club,31,14,68.9%,26,8,76.5%,5,6,45.5%,Tennessee,South
 "
-                    Katherine Larimer",The Ohio State University NCAA,200,153,56.7%,145,114,56.0%,55,39,58.5%,Midwest
+                    Katherine Larimer",The Ohio State University NCAA,200,153,56.7%,145,114,56.0%,55,39,58.5%,Ohio,Midwest
 "
-                    Michael Wall",New Mexico Fencing Foundation,-,-,-,-,-,-,-,-,-,West
+                    Michael Wall",New Mexico Fencing Foundation,-,-,-,-,-,-,-,-,-,New Mexico,West
 "
-                    Rodney Yeh",Vermont Fencing Alliance,-,-,-,-,-,-,-,-,-,North
+                    Rodney Yeh",Vermont Fencing Alliance,-,-,-,-,-,-,-,-,-,Vermont,North
 "
-                    Anna Collins",West Michigan Fencing Academy,213,208,50.6%,162,154,51.3%,51,54,48.6%,Midwest
+                    Anna Collins",West Michigan Fencing Academy,213,208,50.6%,162,154,51.3%,51,54,48.6%,Michigan,Midwest
 "
-                    Nicole Krumholz",New York Fencing Academy,282,399,41.4%,227,307,42.5%,55,92,37.4%,North
+                    Nicole Krumholz",New York Fencing Academy,282,399,41.4%,227,307,42.5%,55,92,37.4%,New York,North
 "
-                    Harper Jamison",Illinois Fencing Academy,29,38,43.3%,22,30,42.3%,7,8,46.7%,Midwest
+                    Harper Jamison",Illinois Fencing Academy,29,38,43.3%,22,30,42.3%,7,8,46.7%,Illinois,Midwest
 "
-                    June Browner",Oregon Fencing Alliance,104,128,44.8%,80,100,44.4%,24,28,46.2%,West
+                    June Browner",Oregon Fencing Alliance,104,128,44.8%,80,100,44.4%,24,28,46.2%,Oregon,West
 "
-                    John McFarland",Florida State University Fencing Club,85,112,43.1%,74,84,46.8%,11,28,28.2%,South
+                    John McFarland",Florida State University Fencing Club,85,112,43.1%,74,84,46.8%,11,28,28.2%,Florida,South
 "
-                    Michael Carter",Kansas City Fencing Center,-,-,-,-,-,-,-,-,-,Midwest
+                    Michael Carter",Kansas City Fencing Center,-,-,-,-,-,-,-,-,-,Kansas,Midwest
 "
-                    David Hinds",Virginia Tech Fencing Club,56,16,77.8%,41,8,83.7%,15,8,65.2%,South
+                    David Hinds",Virginia Tech Fencing Club,56,16,77.8%,41,8,83.7%,15,8,65.2%,Virginia,South
 "
-                    Ayush Shah",The Ohio State University NCAA,537,204,72.5%,379,122,75.6%,158,82,65.8%,Midwest
+                    Ayush Shah",The Ohio State University NCAA,537,204,72.5%,379,122,75.6%,158,82,65.8%,Ohio,Midwest
 "
-                    Eva Petroff",New York Fencing Academy,198,176,52.9%,156,127,55.1%,42,49,46.2%,North
+                    Eva Petroff",New York Fencing Academy,198,176,52.9%,156,127,55.1%,42,49,46.2%,New York,North
 "
-                    Jann Ream",Iowa City Fencing Center,23,56,29.1%,19,44,30.2%,4,12,25.0%,Midwest
+                    Jann Ream",Iowa City Fencing Center,23,56,29.1%,19,44,30.2%,4,12,25.0%,Iowa,Midwest
 "
-                    Charmaine Andres",Southern California Fencing Academy (SOCALFA),720,295,70.9%,482,189,71.8%,238,106,69.2%,West
+                    Charmaine Andres",Southern California Fencing Academy (SOCALFA),720,295,70.9%,482,189,71.8%,238,106,69.2%,California,West
 "
-                    Liam Zone",New Mexico Fencing Foundation,91,72,55.8%,63,53,54.3%,28,19,59.6%,West
+                    Liam Zone",New Mexico Fencing Foundation,91,72,55.8%,63,53,54.3%,28,19,59.6%,New Mexico,West
 "
-                    Heonjae Cheong",University Of Pennsylvania NCAA,442,316,58.3%,322,229,58.4%,120,87,58.0%,North
+                    Heonjae Cheong",University Of Pennsylvania NCAA,442,316,58.3%,322,229,58.4%,120,87,58.0%,Pennsylvania,North
 "
-                    Luke Tierney",Iowa City Fencing Center,104,286,26.7%,88,233,27.4%,16,53,23.2%,Midwest
+                    Luke Tierney",Iowa City Fencing Center,104,286,26.7%,88,233,27.4%,16,53,23.2%,Iowa,Midwest
 "
-                    Grace Hicks",New York Fencing Academy,281,345,44.9%,203,268,43.1%,78,77,50.3%,North
+                    Grace Hicks",New York Fencing Academy,281,345,44.9%,203,268,43.1%,78,77,50.3%,New York,North
 "
-                    Chris O'Loughlin ",New York Athletic Club,118,13,90.1%,70,6,92.1%,48,7,87.3%,North
+                    Chris O'Loughlin ",New York Athletic Club,118,13,90.1%,70,6,92.1%,48,7,87.3%,New York,North
 "
-                    Eliza Avramova",Texas Fencing Academy,7,7,50.0%,5,5,50.0%,2,2,50.0%,South
+                    Eliza Avramova",Texas Fencing Academy,7,7,50.0%,5,5,50.0%,2,2,50.0%,Texas,South
 "
-                    Giovanni Barford",Illinois Fencing Academy,40,94,29.9%,29,73,28.4%,11,21,34.4%,Midwest
+                    Giovanni Barford",Illinois Fencing Academy,40,94,29.9%,29,73,28.4%,11,21,34.4%,Illinois,Midwest
 "
-                    Nicole Ross ",New York Athletic Club,38,2,95.0%,24,-,100.0%,14,2,87.5%,North
+                    Nicole Ross ",New York Athletic Club,38,2,95.0%,24,-,100.0%,14,2,87.5%,New York,North
 "
-                    Alfred Lara",Oregon Fencing Alliance,85,60,58.6%,62,43,59.0%,23,17,57.5%,West
+                    Alfred Lara",Oregon Fencing Alliance,85,60,58.6%,62,43,59.0%,23,17,57.5%,Oregon,West
 "
-                    Tim Dickson",Indianapolis Fencing Club,100,144,41.0%,79,110,41.8%,21,34,38.2%,Midwest
+                    Tim Dickson",Indianapolis Fencing Club,100,144,41.0%,79,110,41.8%,21,34,38.2%,Indiana,Midwest
 "
-                    jimmy Wu",The Ohio State University Fencing Club,32,43,42.7%,25,34,42.4%,7,9,43.8%,Midwest
+                    jimmy Wu",The Ohio State University Fencing Club,32,43,42.7%,25,34,42.4%,7,9,43.8%,Ohio,Midwest
 "
-                    Jaden You",Delaware Valley Fencers Club-PA,171,297,36.5%,140,240,36.8%,31,57,35.2%,South
+                    Jaden You",Delaware Valley Fencers Club-PA,171,297,36.5%,140,240,36.8%,31,57,35.2%,Delaware,South
 "
-                    Natasha Connolly",Rhode Island Fencing Academy And Club,54,174,23.7%,44,141,23.8%,10,33,23.3%,North
+                    Natasha Connolly",Rhode Island Fencing Academy And Club,54,174,23.7%,44,141,23.8%,10,33,23.3%,Rhode Island,North
 "
-                    Steve Mormando",New York University NCAA,-,-,-,-,-,-,-,-,-,North
+                    Steve Mormando",New York University NCAA,-,-,-,-,-,-,-,-,-,New York,North
 "
-                    Ian Goldfine",New York Fencing Academy,423,207,67.1%,299,143,67.6%,124,64,66.0%,North
+                    Ian Goldfine",New York Fencing Academy,423,207,67.1%,299,143,67.6%,124,64,66.0%,New York,North
 "
-                    Alexandra Smuk",Rhode Island Fencing Academy And Club,655,371,63.8%,468,253,64.9%,187,118,61.3%,North
+                    Alexandra Smuk",Rhode Island Fencing Academy And Club,655,371,63.8%,468,253,64.9%,187,118,61.3%,Rhode Island,North
 "
-                    Richard Dunlop",Illinois Fencers Club,43,157,21.5%,36,124,22.5%,7,33,17.5%,Midwest
+                    Richard Dunlop",Illinois Fencers Club,43,157,21.5%,36,124,22.5%,7,33,17.5%,Illinois,Midwest
 "
-                    Sayid Achilov",Rhode Island Fencing Academy And Club,416,298,58.3%,311,207,60.0%,105,91,53.6%,North
+                    Sayid Achilov",Rhode Island Fencing Academy And Club,416,298,58.3%,311,207,60.0%,105,91,53.6%,Rhode Island,North
 "
-                    Christopher Paul",Florida Fencing Academy,-,-,-,-,-,-,-,-,-,South
+                    Christopher Paul",Florida Fencing Academy,-,-,-,-,-,-,-,-,-,Florida,South
 "
-                    Andrew Popovici",Texas A&M University Fencing,75,44,63.0%,51,30,63.0%,24,14,63.2%,South
+                    Andrew Popovici",Texas A&M University Fencing,75,44,63.0%,51,30,63.0%,24,14,63.2%,Texas,South
 "
-                    Clarisse Tan",Pennsylvania State University NCAA,241,312,43.6%,200,238,45.7%,41,74,35.7%,North
+                    Clarisse Tan",Pennsylvania State University NCAA,241,312,43.6%,200,238,45.7%,41,74,35.7%,Pennsylvania,North
 "
-                    Kevin Son",University Of Texas Fencing Club at Austin,11,16,40.7%,7,12,36.8%,4,4,50.0%,South
+                    Kevin Son",University Of Texas Fencing Club at Austin,11,16,40.7%,7,12,36.8%,4,4,50.0%,Texas,South
 "
-                    Nicholas Wu",University Of Pennsylvania NCAA,266,172,60.7%,205,124,62.3%,61,48,56.0%,North
+                    Nicholas Wu",University Of Pennsylvania NCAA,266,172,60.7%,205,124,62.3%,61,48,56.0%,Pennsylvania,North
 "
-                    Carlos Toledo",Southern California Fencing Academy (SOCALFA),39,30,56.5%,28,21,57.1%,11,9,55.0%,West
+                    Carlos Toledo",Southern California Fencing Academy (SOCALFA),39,30,56.5%,28,21,57.1%,11,9,55.0%,California,West
 "
-                    Cristina Gordet",South Florida Fencing Club,245,193,55.9%,173,140,55.3%,72,53,57.6%,South
+                    Cristina Gordet",South Florida Fencing Club,245,193,55.9%,173,140,55.3%,72,53,57.6%,Florida,South
 "
-                    Eric Novey",University of Maryland Terrapin Fencing,9,7,56.2%,7,5,58.3%,2,2,50.0%,South
+                    Eric Novey",University of Maryland Terrapin Fencing,9,7,56.2%,7,5,58.3%,2,2,50.0%,Maryland,South
 "
-                    Tyler Hudson",University of North Carolina Charlotte Fencing Club,9,13,40.9%,5,10,33.3%,4,3,57.1%,South
+                    Tyler Hudson",University of North Carolina Charlotte Fencing Club,9,13,40.9%,5,10,33.3%,4,3,57.1%,North Carolina,South
 "
-                    Anastasiia Kudierova",New York Fencing Academy,38,35,52.1%,28,26,51.9%,10,9,52.6%,North
+                    Anastasiia Kudierova",New York Fencing Academy,38,35,52.1%,28,26,51.9%,10,9,52.6%,New York,North
 "
-                    Kyung Seol",University Of Florida Fencing Club,115,47,71.0%,90,26,77.6%,25,21,54.3%,South
+                    Kyung Seol",University Of Florida Fencing Club,115,47,71.0%,90,26,77.6%,25,21,54.3%,Florida,South
 "
-                    Adam Demaree",University Of Tennessee Knoxville Fencing Club,45,33,57.7%,32,25,56.1%,13,8,61.9%,South
+                    Adam Demaree",University Of Tennessee Knoxville Fencing Club,45,33,57.7%,32,25,56.1%,13,8,61.9%,Tennessee,South
 "
-                    Batu Odbadrakh",University Of Tennessee Knoxville Fencing Club,38,12,76.0%,27,6,81.8%,11,6,64.7%,South
+                    Batu Odbadrakh",University Of Tennessee Knoxville Fencing Club,38,12,76.0%,27,6,81.8%,11,6,64.7%,Tennessee,South
 "
-                    Jose Rolon",Middle Tennessee State University Fencing Club,26,17,60.5%,18,11,62.1%,8,6,57.1%,South
+                    Jose Rolon",Middle Tennessee State University Fencing Club,26,17,60.5%,18,11,62.1%,8,6,57.1%,Tennessee,South
 "
-                    Holly Buechel",Tim Morehouse Fencing Club (Connecticut),22,7,75.9%,14,4,77.8%,8,3,72.7%,North
+                    Holly Buechel",Tim Morehouse Fencing Club (Connecticut),22,7,75.9%,14,4,77.8%,8,3,72.7%,Connecticut,North
 "
-                    Robin Hu",New Jersey Fencing Alliance,113,134,45.7%,92,104,46.9%,21,30,41.2%,North
+                    Robin Hu",New Jersey Fencing Alliance,113,134,45.7%,92,104,46.9%,21,30,41.2%,New Jersey,North
 "
-                    Cole Sturgeon",Oregon Fencing Alliance,138,121,53.3%,102,90,53.1%,36,31,53.7%,West
+                    Cole Sturgeon",Oregon Fencing Alliance,138,121,53.3%,102,90,53.1%,36,31,53.7%,Oregon,West
 "
-                    Aerin Presman",New York Fencing Academy,404,236,63.1%,296,158,65.2%,108,78,58.1%,North
+                    Aerin Presman",New York Fencing Academy,404,236,63.1%,296,158,65.2%,108,78,58.1%,New York,North
 "
-                    Adrien Autrey",Oregon Fencing Alliance,120,207,36.7%,96,162,37.2%,24,45,34.8%,West
+                    Adrien Autrey",Oregon Fencing Alliance,120,207,36.7%,96,162,37.2%,24,45,34.8%,Oregon,West
 "
-                    Rainie Yao",Southern California Fencing Academy (SOCALFA),284,326,46.6%,225,248,47.6%,59,78,43.1%,West
+                    Rainie Yao",Southern California Fencing Academy (SOCALFA),284,326,46.6%,225,248,47.6%,59,78,43.1%,California,West
 "
-                    Kelly Dewsnup",Oregon Fencing Alliance,40,26,60.6%,28,19,59.6%,12,7,63.2%,West
+                    Kelly Dewsnup",Oregon Fencing Alliance,40,26,60.6%,28,19,59.6%,12,7,63.2%,Oregon,West
 "
-                    Jacqueline Dubrovich ",New Jersey Fencing Alliance,112,13,89.6%,63,3,95.5%,49,10,83.1%,North
+                    Jacqueline Dubrovich ",New Jersey Fencing Alliance,112,13,89.6%,63,3,95.5%,49,10,83.1%,New Jersey,North
 "
-                    Aubrey Testroet",Northwest Indiana Fencing Club,143,103,58.1%,105,75,58.3%,38,28,57.6%,Midwest
+                    Aubrey Testroet",Northwest Indiana Fencing Club,143,103,58.1%,105,75,58.3%,38,28,57.6%,Indiana,Midwest
 "
-                    Michael Kolodner",Delaware Valley Fencers Club-PA,4,3,57.1%,3,2,60.0%,1,1,50.0%,South
+                    Michael Kolodner",Delaware Valley Fencers Club-PA,4,3,57.1%,3,2,60.0%,1,1,50.0%,Delaware,South
 "
-                    Daria Smuk",Rhode Island Fencing Academy And Club,423,369,53.4%,315,274,53.5%,108,95,53.2%,North
+                    Daria Smuk",Rhode Island Fencing Academy And Club,423,369,53.4%,315,274,53.5%,108,95,53.2%,Rhode Island,North
 "
-                    Steve Wildman",Kansas City Fencing Center,29,31,48.3%,21,23,47.7%,8,8,50.0%,Midwest
+                    Steve Wildman",Kansas City Fencing Center,29,31,48.3%,21,23,47.7%,8,8,50.0%,Kansas,Midwest
 "
-                    Yeva Mazur",The Ohio State University NCAA,49,16,75.4%,34,11,75.6%,15,5,75.0%,Midwest
+                    Yeva Mazur",The Ohio State University NCAA,49,16,75.4%,34,11,75.6%,15,5,75.0%,Ohio,Midwest
 "
-                    Mariel Zagunis ",Oregon Fencing Alliance,55,3,94.8%,28,2,93.3%,27,1,96.4%,West
+                    Mariel Zagunis ",Oregon Fencing Alliance,55,3,94.8%,28,2,93.3%,27,1,96.4%,Oregon,West
 "
-                    Jeffrey Larsen",Oregon Fencing Alliance,-,-,-,-,-,-,-,-,-,West
+                    Jeffrey Larsen",Oregon Fencing Alliance,-,-,-,-,-,-,-,-,-,Oregon,West
 "
-                    Emma Mueller",Rhode Island Fencing Academy And Club,468,344,57.6%,346,245,58.5%,122,99,55.2%,North
+                    Emma Mueller",Rhode Island Fencing Academy And Club,468,344,57.6%,346,245,58.5%,122,99,55.2%,Rhode Island,North
 "
-                    Ben Serafin",University Of Pennsylvania NCAA,355,241,59.6%,250,174,59.0%,105,67,61.0%,North
+                    Ben Serafin",University Of Pennsylvania NCAA,355,241,59.6%,250,174,59.0%,105,67,61.0%,Pennsylvania,North
 "
-                    Kirin Biancosino",Vermont Fencing Alliance,-,-,-,-,-,-,-,-,-,North
+                    Kirin Biancosino",Vermont Fencing Alliance,-,-,-,-,-,-,-,-,-,Vermont,North
 "
-                    Allan Brown",Texas Fencing Academy,29,35,45.3%,23,26,46.9%,6,9,40.0%,South
+                    Allan Brown",Texas Fencing Academy,29,35,45.3%,23,26,46.9%,6,9,40.0%,Texas,South
 "
-                    Daniel Crapnell",Indianapolis Fencing Club,45,61,42.5%,35,44,44.3%,10,17,37.0%,Midwest
+                    Daniel Crapnell",Indianapolis Fencing Club,45,61,42.5%,35,44,44.3%,10,17,37.0%,Indiana,Midwest
 "
-                    Jason Pryor ",New York Athletic Club,44,18,71.0%,30,11,73.2%,14,7,66.7%,North
+                    Jason Pryor ",New York Athletic Club,44,18,71.0%,30,11,73.2%,14,7,66.7%,New York,North
 "
-                    James Whittle",Rhode Island Fencing Academy And Club,-,-,-,-,-,-,-,-,-,North
+                    James Whittle",Rhode Island Fencing Academy And Club,-,-,-,-,-,-,-,-,-,Rhode Island,North
 "
-                    Michelle Wu",New York Fencing Academy,244,180,57.5%,189,122,60.8%,55,58,48.7%,North
+                    Michelle Wu",New York Fencing Academy,244,180,57.5%,189,122,60.8%,55,58,48.7%,New York,North
 "
-                    Theodore Lombardo",New York Athletic Club,133,58,69.6%,96,38,71.6%,37,20,64.9%,North
+                    Theodore Lombardo",New York Athletic Club,133,58,69.6%,96,38,71.6%,37,20,64.9%,New York,North
 "
-                    Zachary Luhan",Oregon Fencing Alliance,217,166,56.7%,162,117,58.1%,55,49,52.9%,West
+                    Zachary Luhan",Oregon Fencing Alliance,217,166,56.7%,162,117,58.1%,55,49,52.9%,Oregon,West
 "
-                    David Fisher",Arizona State University Fencing Club,7,13,35.0%,6,10,37.5%,1,3,25.0%,West
+                    David Fisher",Arizona State University Fencing Club,7,13,35.0%,6,10,37.5%,1,3,25.0%,Arizona,West
 "
-                    Jason Sun",New York Fencing Academy,191,198,49.1%,147,148,49.8%,44,50,46.8%,North
+                    Jason Sun",New York Fencing Academy,191,198,49.1%,147,148,49.8%,44,50,46.8%,New York,North
 "
-                    Samuel Hauser",University Of Tennessee Knoxville Fencing Club,10,12,45.5%,6,9,40.0%,4,3,57.1%,South
+                    Samuel Hauser",University Of Tennessee Knoxville Fencing Club,10,12,45.5%,6,9,40.0%,4,3,57.1%,Tennessee,South
 "
-                    Sarah-Jane Calvert",Fencing Institute Of Texas,189,149,55.9%,140,114,55.1%,49,35,58.3%,South
+                    Sarah-Jane Calvert",Fencing Institute Of Texas,189,149,55.9%,140,114,55.1%,49,35,58.3%,Texas,South
 "
-                    Kimberly Klein-Braddock",Oregon Fencing Alliance,42,30,58.3%,32,22,59.3%,10,8,55.6%,West
+                    Kimberly Klein-Braddock",Oregon Fencing Alliance,42,30,58.3%,32,22,59.3%,10,8,55.6%,Oregon,West
 "
-                    Minh Vo",Southern California Fencing Academy (SOCALFA),232,285,44.9%,178,222,44.5%,54,63,46.2%,West
+                    Minh Vo",Southern California Fencing Academy (SOCALFA),232,285,44.9%,178,222,44.5%,54,63,46.2%,California,West
 "
-                    Elizabeth Wang",University Of Pennsylvania NCAA,411,184,69.1%,294,119,71.2%,117,65,64.3%,North
+                    Elizabeth Wang",University Of Pennsylvania NCAA,411,184,69.1%,294,119,71.2%,117,65,64.3%,Pennsylvania,North
 "
-                    Michael Gladnick",Delaware Valley Fencers Club-PA,56,126,30.8%,47,101,31.8%,9,25,26.5%,South
+                    Michael Gladnick",Delaware Valley Fencers Club-PA,56,126,30.8%,47,101,31.8%,9,25,26.5%,Delaware,South
 "
-                    David Marvin",Iowa State University Fencing Club,-,-,-,-,-,-,-,-,-,Midwest
+                    David Marvin",Iowa State University Fencing Club,-,-,-,-,-,-,-,-,-,Iowa,Midwest
 "
-                    Michael Szathmary",Middle Tennessee Fencing Club,37,46,44.6%,29,35,45.3%,8,11,42.1%,South
+                    Michael Szathmary",Middle Tennessee Fencing Club,37,46,44.6%,29,35,45.3%,8,11,42.1%,Tennessee,South
 "
-                    Brady Lawrence",New Mexico Fencing Foundation,3,17,15.0%,3,15,16.7%,-,2,0.0%,West
+                    Brady Lawrence",New Mexico Fencing Foundation,3,17,15.0%,3,15,16.7%,-,2,0.0%,New Mexico,West
 "
-                    Jansson Viviani ",New York Athletic Club,-,-,-,-,-,-,-,-,-,North
+                    Jansson Viviani ",New York Athletic Club,-,-,-,-,-,-,-,-,-,New York,North
 "
-                    Kingsley Panigrahi",Southern California Fencing Academy (SOCALFA),102,186,35.4%,78,151,34.1%,24,35,40.7%,West
+                    Kingsley Panigrahi",Southern California Fencing Academy (SOCALFA),102,186,35.4%,78,151,34.1%,24,35,40.7%,California,West
 "
-                    Nicholas Carothers",Kansas City Fencing Center,-,-,-,-,-,-,-,-,-,Midwest
+                    Nicholas Carothers",Kansas City Fencing Center,-,-,-,-,-,-,-,-,-,Kansas,Midwest
 "
-                    Bryce Thayer",Southwest Florida Fencing Academy,326,128,71.8%,229,78,74.6%,97,50,66.0%,South
+                    Bryce Thayer",Southwest Florida Fencing Academy,326,128,71.8%,229,78,74.6%,97,50,66.0%,Florida,South
 "
-                    Karl Bergsma",Indianapolis Fencing Club,1,4,20.0%,1,3,25.0%,-,1,0.0%,Midwest
+                    Karl Bergsma",Indianapolis Fencing Club,1,4,20.0%,1,3,25.0%,-,1,0.0%,Indiana,Midwest
 "
-                    Jesse Pablo",Wildcat Fencing-University of Arizona,8,12,40.0%,6,10,37.5%,2,2,50.0%,West
+                    Jesse Pablo",Wildcat Fencing-University of Arizona,8,12,40.0%,6,10,37.5%,2,2,50.0%,Arizona,West
 "
-                    Julie Lamoreaux",Vermont Fencing Alliance,-,-,-,-,-,-,-,-,-,North
+                    Julie Lamoreaux",Vermont Fencing Alliance,-,-,-,-,-,-,-,-,-,Vermont,North
 "
-                    Kelton Chen",Fencing Institute Of Texas,97,165,37.0%,77,133,36.7%,20,32,38.5%,South
+                    Kelton Chen",Fencing Institute Of Texas,97,165,37.0%,77,133,36.7%,20,32,38.5%,Texas,South
 "
-                    Ray Schuppe",Vermont Fencing Alliance,-,-,-,-,-,-,-,-,-,North
+                    Ray Schuppe",Vermont Fencing Alliance,-,-,-,-,-,-,-,-,-,Vermont,North
 "
-                    Chuku Oje",West Michigan Fencing Academy,83,50,62.4%,64,35,64.6%,19,15,55.9%,Midwest
+                    Chuku Oje",West Michigan Fencing Academy,83,50,62.4%,64,35,64.6%,19,15,55.9%,Michigan,Midwest
 "
-                    William Ray",Mississippi Fencing Club,123,113,52.1%,95,82,53.7%,28,31,47.5%,South
+                    William Ray",Mississippi Fencing Club,123,113,52.1%,95,82,53.7%,28,31,47.5%,Mississippi,South
 "
-                    Pavel Linnik",North Florida Fencing Club,-,-,-,-,-,-,-,-,-,South
+                    Pavel Linnik",North Florida Fencing Club,-,-,-,-,-,-,-,-,-,Florida,South
 "
-                    Kyra Wu",University Of California San Diego NCAA,152,160,48.7%,115,124,48.1%,37,36,50.7%,West
+                    Kyra Wu",University Of California San Diego NCAA,152,160,48.7%,115,124,48.1%,37,36,50.7%,California,West
 "
-                    Leo Xue",Texas Sabre Academy,121,172,41.3%,97,131,42.5%,24,41,36.9%,South
+                    Leo Xue",Texas Sabre Academy,121,172,41.3%,97,131,42.5%,24,41,36.9%,Texas,South
 "
-                    Thomas DuPree",Florida Fencing Academy,444,186,70.5%,312,121,72.1%,132,65,67.0%,South
+                    Thomas DuPree",Florida Fencing Academy,444,186,70.5%,312,121,72.1%,132,65,67.0%,Florida,South
 "
-                    Janna Aboudaher",University Of California San Diego NCAA,84,84,50.0%,67,65,50.8%,17,19,47.2%,West
+                    Janna Aboudaher",University Of California San Diego NCAA,84,84,50.0%,67,65,50.8%,17,19,47.2%,California,West
 "
-                    Jason Krasowitz",Central Pennsylvania Fencing Association,18,5,78.3%,12,3,80.0%,6,2,75.0%,North
+                    Jason Krasowitz",Central Pennsylvania Fencing Association,18,5,78.3%,12,3,80.0%,6,2,75.0%,Pennsylvania,North
 "
-                    Magnus Muenke",Northern Colorado Fencers,18,20,47.4%,11,15,42.3%,7,5,58.3%,West
+                    Magnus Muenke",Northern Colorado Fencers,18,20,47.4%,11,15,42.3%,7,5,58.3%,Colorado,West
 "
-                    Maxwell Hampton",Rhode Island Fencing Academy And Club,14,4,77.8%,9,2,81.8%,5,2,71.4%,North
+                    Maxwell Hampton",Rhode Island Fencing Academy And Club,14,4,77.8%,9,2,81.8%,5,2,71.4%,Rhode Island,North
 "
-                    Miles Zhou",Delaware Valley Fencers Club-PA,396,453,46.6%,320,348,47.9%,76,105,42.0%,South
+                    Miles Zhou",Delaware Valley Fencers Club-PA,396,453,46.6%,320,348,47.9%,76,105,42.0%,Delaware,South
 "
-                    Dilinna Oraedu",New Jersey Fencing Alliance,14,10,58.3%,10,7,58.8%,4,3,57.1%,North
+                    Dilinna Oraedu",New Jersey Fencing Alliance,14,10,58.3%,10,7,58.8%,4,3,57.1%,New Jersey,North
 "
-                    Ashmiee Gaikwad",Southern California Fencing Academy (SOCALFA),181,86,67.8%,131,54,70.8%,50,32,61.0%,West
+                    Ashmiee Gaikwad",Southern California Fencing Academy (SOCALFA),181,86,67.8%,131,54,70.8%,50,32,61.0%,California,West
 "
-                    Jason Chin",University Of California San Diego NCAA,349,183,65.6%,271,118,69.7%,78,65,54.5%,West
+                    Jason Chin",University Of California San Diego NCAA,349,183,65.6%,271,118,69.7%,78,65,54.5%,California,West
 "
-                    Daria Schneider",New York Athletic Club,-,-,-,-,-,-,-,-,-,North
+                    Daria Schneider",New York Athletic Club,-,-,-,-,-,-,-,-,-,New York,North
 "
-                    Michael Andres",Southern California Fencing Academy (SOCALFA),744,319,70.0%,529,201,72.5%,215,118,64.6%,West
+                    Michael Andres",Southern California Fencing Academy (SOCALFA),744,319,70.0%,529,201,72.5%,215,118,64.6%,California,West
 "
-                    Alexander Mberia",Indianapolis Fencing Club,41,66,38.3%,35,50,41.2%,6,16,27.3%,Midwest
+                    Alexander Mberia",Indianapolis Fencing Club,41,66,38.3%,35,50,41.2%,6,16,27.3%,Indiana,Midwest
 "
-                    Eric Rhea",Central Iowa Fencing Academy,44,94,31.9%,35,75,31.8%,9,19,32.1%,Midwest
+                    Eric Rhea",Central Iowa Fencing Academy,44,94,31.9%,35,75,31.8%,9,19,32.1%,Iowa,Midwest
 "
-                    James Fair",Florida State University Fencing Club,35,31,53.0%,25,22,53.2%,10,9,52.6%,South
+                    James Fair",Florida State University Fencing Club,35,31,53.0%,25,22,53.2%,10,9,52.6%,Florida,South
 "
-                    Olivia Stock",Fencing Club at Indiana University,42,69,37.8%,35,54,39.3%,7,15,31.8%,Midwest
+                    Olivia Stock",Fencing Club at Indiana University,42,69,37.8%,35,54,39.3%,7,15,31.8%,Indiana,Midwest
 "
-                    Cora Powledge",Rhode Island Fencing Academy And Club,77,134,36.5%,58,106,35.4%,19,28,40.4%,North
+                    Cora Powledge",Rhode Island Fencing Academy And Club,77,134,36.5%,58,106,35.4%,19,28,40.4%,Rhode Island,North
 "
-                    Liat Smotritsky",New York Fencing Academy,133,146,47.7%,104,110,48.6%,29,36,44.6%,North
+                    Liat Smotritsky",New York Fencing Academy,133,146,47.7%,104,110,48.6%,29,36,44.6%,New York,North
 "
-                    Charles Lim",New Jersey Fencing Alliance,55,76,42.0%,43,60,41.7%,12,16,42.9%,North
+                    Charles Lim",New Jersey Fencing Alliance,55,76,42.0%,43,60,41.7%,12,16,42.9%,New Jersey,North
 "
-                    Katharine Thomas",Delaware Valley Fencers Club-PA,-,-,-,-,-,-,-,-,-,South
+                    Katharine Thomas",Delaware Valley Fencers Club-PA,-,-,-,-,-,-,-,-,-,Delaware,South
 "
-                    Brendan Anderson",New York Athletic Club,66,31,68.0%,54,19,74.0%,12,12,50.0%,North
+                    Brendan Anderson",New York Athletic Club,66,31,68.0%,54,19,74.0%,12,12,50.0%,New York,North
 "
-                    George Wallace",Virginia Tech Fencing Club,75,46,62.0%,54,31,63.5%,21,15,58.3%,South
+                    George Wallace",Virginia Tech Fencing Club,75,46,62.0%,54,31,63.5%,21,15,58.3%,Virginia,South
 "
-                    Pengfei Yang",Washington University. St. Louis,2,9,18.2%,2,7,22.2%,-,2,0.0%,West
+                    Pengfei Yang",Washington University. St. Louis,2,9,18.2%,2,7,22.2%,-,2,0.0%,Washington,West
 "
-                    Viveka Fox",Vermont Fencing Alliance,27,13,67.5%,16,9,64.0%,11,4,73.3%,North
+                    Viveka Fox",Vermont Fencing Alliance,27,13,67.5%,16,9,64.0%,11,4,73.3%,Vermont,North
 "
-                    Riyana Goel",California Fencing Academy,94,321,22.7%,81,266,23.3%,13,55,19.1%,West
+                    Riyana Goel",California Fencing Academy,94,321,22.7%,81,266,23.3%,13,55,19.1%,California,West
 "
-                    Anthony Wu",The Fencing Knights at University Central Florida,83,46,64.3%,63,29,68.5%,20,17,54.1%,South
+                    Anthony Wu",The Fencing Knights at University Central Florida,83,46,64.3%,63,29,68.5%,20,17,54.1%,Florida,South
 "
-                    Jack Masse",Rhode Island Fencing Academy And Club,77,211,26.7%,63,170,27.0%,14,41,25.5%,North
+                    Jack Masse",Rhode Island Fencing Academy And Club,77,211,26.7%,63,170,27.0%,14,41,25.5%,Rhode Island,North
 "
-                    Nathan Binshtok",Kansas City Fencing Center,-,6,0.0%,-,6,0.0%,-,-,-,Midwest
+                    Nathan Binshtok",Kansas City Fencing Center,-,6,0.0%,-,6,0.0%,-,-,-,Kansas,Midwest
 "
-                    Austin Doten",Arizona State University Fencing Club,9,17,34.6%,8,13,38.1%,1,4,20.0%,West
+                    Austin Doten",Arizona State University Fencing Club,9,17,34.6%,8,13,38.1%,1,4,20.0%,Arizona,West
 "
-                    Ellen O'Leary",Washington Fencing Academy,61,91,40.1%,42,74,36.2%,19,17,52.8%,West
+                    Ellen O'Leary",Washington Fencing Academy,61,91,40.1%,42,74,36.2%,19,17,52.8%,Washington,West
 "
-                    Benjamin Rider",Central Arkansas Fencing Club,-,-,-,-,-,-,-,-,-,South
+                    Benjamin Rider",Central Arkansas Fencing Club,-,-,-,-,-,-,-,-,-,Arkansas,South
 "
-                    Aanika Mahabaleshwarkar",Fencing Institute Of Texas,41,96,29.9%,32,78,29.1%,9,18,33.3%,South
+                    Aanika Mahabaleshwarkar",Fencing Institute Of Texas,41,96,29.9%,32,78,29.1%,9,18,33.3%,Texas,South
 "
-                    Daniel Moroze",Washington University. St. Louis,1,6,14.3%,1,5,16.7%,-,1,0.0%,West
+                    Daniel Moroze",Washington University. St. Louis,1,6,14.3%,1,5,16.7%,-,1,0.0%,Washington,West
 "
-                    Gabriella Alfarache",Texas Sabre Academy,354,385,47.9%,287,291,49.7%,67,94,41.6%,South
+                    Gabriella Alfarache",Texas Sabre Academy,354,385,47.9%,287,291,49.7%,67,94,41.6%,Texas,South
 "
-                    Maria Valdivia",University Of Florida Fencing Club,15,15,50.0%,11,11,50.0%,4,4,50.0%,South
+                    Maria Valdivia",University Of Florida Fencing Club,15,15,50.0%,11,11,50.0%,4,4,50.0%,Florida,South
 "
-                    Kevin Mo",New York Athletic Club,-,-,-,-,-,-,-,-,-,North
+                    Kevin Mo",New York Athletic Club,-,-,-,-,-,-,-,-,-,New York,North
 "
-                    Zidan Wang",Southern California Fencing Academy (SOCALFA),308,311,49.8%,239,231,50.9%,69,80,46.3%,West
+                    Zidan Wang",Southern California Fencing Academy (SOCALFA),308,311,49.8%,239,231,50.9%,69,80,46.3%,California,West
 "
-                    Evan Vysotskiy",New York Fencing Academy,185,76,70.9%,113,54,67.7%,72,22,76.6%,North
+                    Evan Vysotskiy",New York Fencing Academy,185,76,70.9%,113,54,67.7%,72,22,76.6%,New York,North
 "
-                    Keira Cromwell",Iowa City Fencing Center,164,133,55.2%,119,99,54.6%,45,34,57.0%,Midwest
+                    Keira Cromwell",Iowa City Fencing Center,164,133,55.2%,119,99,54.6%,45,34,57.0%,Iowa,Midwest
 "
-                    Neil Vedre",Texas Sabre Academy,156,179,46.6%,119,134,47.0%,37,45,45.1%,South
+                    Neil Vedre",Texas Sabre Academy,156,179,46.6%,119,134,47.0%,37,45,45.1%,Texas,South
 "
-                    Selina Huang",Texas Fencing Academy,33,71,31.7%,27,55,32.9%,6,16,27.3%,South
+                    Selina Huang",Texas Fencing Academy,33,71,31.7%,27,55,32.9%,6,16,27.3%,Texas,South
 "
-                    Dimitri Nicholson",En Garde Fencing - California,141,49,74.2%,103,28,78.6%,38,21,64.4%,West
+                    Dimitri Nicholson",En Garde Fencing - California,141,49,74.2%,103,28,78.6%,38,21,64.4%,California,West
 "
-                    Christian Peralta",En Garde Fencing - California,80,110,42.1%,61,84,42.1%,19,26,42.2%,West
+                    Christian Peralta",En Garde Fencing - California,80,110,42.1%,61,84,42.1%,19,26,42.2%,California,West
 "
-                    Peter Irwin",Florida Fencing Academy,312,164,65.5%,221,111,66.6%,91,53,63.2%,South
+                    Peter Irwin",Florida Fencing Academy,312,164,65.5%,221,111,66.6%,91,53,63.2%,Florida,South
 "
-                    Joshua Miller",Illinois Fencers Club,28,17,62.2%,20,11,64.5%,8,6,57.1%,Midwest
+                    Joshua Miller",Illinois Fencers Club,28,17,62.2%,20,11,64.5%,8,6,57.1%,Illinois,Midwest
 "
-                    Donald Anthony",The Ohio State University NCAA,41,24,63.1%,33,15,68.8%,8,9,47.1%,Midwest
+                    Donald Anthony",The Ohio State University NCAA,41,24,63.1%,33,15,68.8%,8,9,47.1%,Ohio,Midwest
 "
-                    Tzer Wong",New York Athletic Club,54,15,78.3%,37,8,82.2%,17,7,70.8%,North
+                    Tzer Wong",New York Athletic Club,54,15,78.3%,37,8,82.2%,17,7,70.8%,New York,North
 "
-                    Roxane Cayrat",University Of California San Diego NCAA,9,7,56.2%,7,5,58.3%,2,2,50.0%,West
+                    Roxane Cayrat",University Of California San Diego NCAA,9,7,56.2%,7,5,58.3%,2,2,50.0%,California,West
 "
-                    Jonathan Tague",Indianapolis Fencing Club,25,25,50.0%,21,19,52.5%,4,6,40.0%,Midwest
+                    Jonathan Tague",Indianapolis Fencing Club,25,25,50.0%,21,19,52.5%,4,6,40.0%,Indiana,Midwest
 "
-                    Mira Gollnick",Iowa City Fencing Center,105,135,43.8%,82,103,44.3%,23,32,41.8%,Midwest
+                    Mira Gollnick",Iowa City Fencing Center,105,135,43.8%,82,103,44.3%,23,32,41.8%,Iowa,Midwest
 "
-                    Zara Fearns",University Of California San Diego NCAA,274,198,58.1%,220,138,61.5%,54,60,47.4%,West
+                    Zara Fearns",University Of California San Diego NCAA,274,198,58.1%,220,138,61.5%,54,60,47.4%,California,West
 "
-                    Jose McGoff",Pennsylvania State University NCAA,42,21,66.7%,31,15,67.4%,11,6,64.7%,North
+                    Jose McGoff",Pennsylvania State University NCAA,42,21,66.7%,31,15,67.4%,11,6,64.7%,Pennsylvania,North
 "
-                    Justin Glozman",Delaware Valley Fencers Club-PA,337,242,58.2%,249,173,59.0%,88,69,56.1%,South
+                    Justin Glozman",Delaware Valley Fencers Club-PA,337,242,58.2%,249,173,59.0%,88,69,56.1%,Delaware,South
 "
-                    Randall Rausch",Texas Fencing Academy,6,2,75.0%,2,2,50.0%,4,-,100.0%,South
+                    Randall Rausch",Texas Fencing Academy,6,2,75.0%,2,2,50.0%,4,-,100.0%,Texas,South
 "
-                    Birch (Lance) McGee-Lane",Vermont Fencing Alliance,-,-,-,-,-,-,-,-,-,North
+                    Birch (Lance) McGee-Lane",Vermont Fencing Alliance,-,-,-,-,-,-,-,-,-,Vermont,North
 "
-                    Andrew Graber",University Of California San Diego NCAA,180,103,63.6%,141,67,67.8%,39,36,52.0%,West
+                    Andrew Graber",University Of California San Diego NCAA,180,103,63.6%,141,67,67.8%,39,36,52.0%,California,West
 "
-                    Bella Balogh",University Of California San Diego NCAA,14,4,77.8%,10,2,83.3%,4,2,66.7%,West
+                    Bella Balogh",University Of California San Diego NCAA,14,4,77.8%,10,2,83.3%,4,2,66.7%,California,West
 "
-                    Soren Thompson ",New York Athletic Club,61,25,70.9%,37,17,68.5%,24,8,75.0%,North
+                    Soren Thompson ",New York Athletic Club,61,25,70.9%,37,17,68.5%,24,8,75.0%,New York,North
 "
-                    Jacob Levy",University Of California San Diego NCAA,322,143,69.2%,226,95,70.4%,96,48,66.7%,West
+                    Jacob Levy",University Of California San Diego NCAA,322,143,69.2%,226,95,70.4%,96,48,66.7%,California,West
 "
-                    Matthew de la Paz",Washington University. St. Louis,11,4,73.3%,8,2,80.0%,3,2,60.0%,West
+                    Matthew de la Paz",Washington University. St. Louis,11,4,73.3%,8,2,80.0%,3,2,60.0%,Washington,West
 "
-                    Ryan Cross",Ohio University Fencing Club,33,28,54.1%,22,20,52.4%,11,8,57.9%,Midwest
+                    Ryan Cross",Ohio University Fencing Club,33,28,54.1%,22,20,52.4%,11,8,57.9%,Ohio,Midwest
 "
-                    Kamran Pahlavi",Rhode Island Fencing Academy And Club,328,522,38.6%,276,409,40.3%,52,113,31.5%,North
+                    Kamran Pahlavi",Rhode Island Fencing Academy And Club,328,522,38.6%,276,409,40.3%,52,113,31.5%,Rhode Island,North
 "
-                    Alexander Bakke",Michigan State University Fencing Club,47,88,34.8%,39,68,36.4%,8,20,28.6%,Midwest
+                    Alexander Bakke",Michigan State University Fencing Club,47,88,34.8%,39,68,36.4%,8,20,28.6%,Michigan,Midwest
 "
-                    Alexander Ng",Arizona State University Fencing Club,90,105,46.2%,68,84,44.7%,22,21,51.2%,West
+                    Alexander Ng",Arizona State University Fencing Club,90,105,46.2%,68,84,44.7%,22,21,51.2%,Arizona,West
 "
-                    Aldric Fournet-Fayard",Fencing Institute Of Texas,73,123,37.2%,53,99,34.9%,20,24,45.5%,South
+                    Aldric Fournet-Fayard",Fencing Institute Of Texas,73,123,37.2%,53,99,34.9%,20,24,45.5%,Texas,South
 "
-                    Rafaella Gomes",University Of California San Diego NCAA,225,160,58.4%,163,118,58.0%,62,42,59.6%,West
+                    Rafaella Gomes",University Of California San Diego NCAA,225,160,58.4%,163,118,58.0%,62,42,59.6%,California,West
 "
-                    Ryan Griffiths",New York Athletic Club,170,68,71.4%,111,42,72.5%,59,26,69.4%,North
+                    Ryan Griffiths",New York Athletic Club,170,68,71.4%,111,42,72.5%,59,26,69.4%,New York,North
 "
-                    Henry Kim",New York Fencing Academy,390,294,57.0%,287,208,58.0%,103,86,54.5%,North
+                    Henry Kim",New York Fencing Academy,390,294,57.0%,287,208,58.0%,103,86,54.5%,New York,North
 "
-                    Lyle Wiemerslage",Ohio University Fencing Club,-,-,-,-,-,-,-,-,-,Midwest
+                    Lyle Wiemerslage",Ohio University Fencing Club,-,-,-,-,-,-,-,-,-,Ohio,Midwest
 "
-                    Peter Marcus",Indianapolis Fencing Club,57,36,61.3%,43,23,65.2%,14,13,51.9%,Midwest
+                    Peter Marcus",Indianapolis Fencing Club,57,36,61.3%,43,23,65.2%,14,13,51.9%,Indiana,Midwest
 "
-                    Yelena Kalkina",Oregon Fencing Alliance,82,9,90.1%,55,6,90.2%,27,3,90.0%,West
+                    Yelena Kalkina",Oregon Fencing Alliance,82,9,90.1%,55,6,90.2%,27,3,90.0%,Oregon,West
 "
-                    Kevin Liu",Florida Fencing Academy,85,108,44.0%,73,82,47.1%,12,26,31.6%,South
+                    Kevin Liu",Florida Fencing Academy,85,108,44.0%,73,82,47.1%,12,26,31.6%,Florida,South
 "
-                    Matthew Sundquist",University of Alabama in Huntsville Fencing Club,66,41,61.7%,44,29,60.3%,22,12,64.7%,South
+                    Matthew Sundquist",University of Alabama in Huntsville Fencing Club,66,41,61.7%,44,29,60.3%,22,12,64.7%,Alabama,South
 "
-                    Amelia Wu",University Of California San Diego NCAA,581,238,70.9%,408,160,71.8%,173,78,68.9%,West
+                    Amelia Wu",University Of California San Diego NCAA,581,238,70.9%,408,160,71.8%,173,78,68.9%,California,West
 "
-                    John Wildman",Kansas City Fencing Center,16,8,66.7%,12,5,70.6%,4,3,57.1%,Midwest
+                    John Wildman",Kansas City Fencing Center,16,8,66.7%,12,5,70.6%,4,3,57.1%,Kansas,Midwest
 "
-                    Tanush Deka",Delaware Valley Fencers Club-PA,176,261,40.3%,155,202,43.4%,21,59,26.2%,South
+                    Tanush Deka",Delaware Valley Fencers Club-PA,176,261,40.3%,155,202,43.4%,21,59,26.2%,Delaware,South
 "
-                    Dylan Wright",Ohio University Fencing Club,31,14,68.9%,21,9,70.0%,10,5,66.7%,Midwest
+                    Dylan Wright",Ohio University Fencing Club,31,14,68.9%,21,9,70.0%,10,5,66.7%,Ohio,Midwest
 "
-                    Joshua Johnson",Florida State University Fencing Club,-,-,-,-,-,-,-,-,-,South
+                    Joshua Johnson",Florida State University Fencing Club,-,-,-,-,-,-,-,-,-,Florida,South
 "
-                    Isaac Ive",University Of California San Diego NCAA,231,93,71.3%,155,65,70.5%,76,28,73.1%,West
+                    Isaac Ive",University Of California San Diego NCAA,231,93,71.3%,155,65,70.5%,76,28,73.1%,California,West
 "
-                    Alejandra Beltran Reyes",Southern California Fencing Academy (SOCALFA),52,6,89.7%,33,2,94.3%,19,4,82.6%,West
+                    Alejandra Beltran Reyes",Southern California Fencing Academy (SOCALFA),52,6,89.7%,33,2,94.3%,19,4,82.6%,California,West
 "
-                    Paul Veltrup",The Ohio State University NCAA,34,12,73.9%,24,9,72.7%,10,3,76.9%,Midwest
+                    Paul Veltrup",The Ohio State University NCAA,34,12,73.9%,24,9,72.7%,10,3,76.9%,Ohio,Midwest
 "
-                    Ellie Kinkade",Oregon Fencing Alliance,287,181,61.3%,218,121,64.3%,69,60,53.5%,West
+                    Ellie Kinkade",Oregon Fencing Alliance,287,181,61.3%,218,121,64.3%,69,60,53.5%,Oregon,West
 "
-                    Julian Byon",Southern California Fencing Academy (SOCALFA),336,289,53.8%,263,210,55.6%,73,79,48.0%,West
+                    Julian Byon",Southern California Fencing Academy (SOCALFA),336,289,53.8%,263,210,55.6%,73,79,48.0%,California,West
 "
-                    Rohan Dalal",Delaware Valley Fencers Club-PA,176,135,56.6%,125,100,55.6%,51,35,59.3%,South
+                    Rohan Dalal",Delaware Valley Fencers Club-PA,176,135,56.6%,125,100,55.6%,51,35,59.3%,Delaware,South
 "
-                    Anthony Liao",University Of Florida Fencing Club,100,47,68.0%,73,29,71.6%,27,18,60.0%,South
+                    Anthony Liao",University Of Florida Fencing Club,100,47,68.0%,73,29,71.6%,27,18,60.0%,Florida,South
 "
-                    Adheesh Agarwal",Illinois Fencing Academy,185,319,36.7%,149,250,37.3%,36,69,34.3%,Midwest
+                    Adheesh Agarwal",Illinois Fencing Academy,185,319,36.7%,149,250,37.3%,36,69,34.3%,Illinois,Midwest
 "
-                    Avery Park",Illinois Fencing Academy,41,41,50.0%,33,31,51.6%,8,10,44.4%,Midwest
+                    Avery Park",Illinois Fencing Academy,41,41,50.0%,33,31,51.6%,8,10,44.4%,Illinois,Midwest
 "
-                    Dhalia Brelsford",Ohio University Fencing Club,20,12,62.5%,14,9,60.9%,6,3,66.7%,Midwest
+                    Dhalia Brelsford",Ohio University Fencing Club,20,12,62.5%,14,9,60.9%,6,3,66.7%,Ohio,Midwest
 "
-                    Nicholas Iarikov",New York Fencing Academy,472,248,65.6%,345,163,67.9%,127,85,59.9%,North
+                    Nicholas Iarikov",New York Fencing Academy,472,248,65.6%,345,163,67.9%,127,85,59.9%,New York,North
 "
-                    Mara Quarles",Mississippi Fencing Club,28,22,56.0%,19,17,52.8%,9,5,64.3%,South
+                    Mara Quarles",Mississippi Fencing Club,28,22,56.0%,19,17,52.8%,9,5,64.3%,Mississippi,South
 "
-                    Doruk Golcu",West Michigan Fencing Academy,3,12,20.0%,1,10,9.1%,2,2,50.0%,Midwest
+                    Doruk Golcu",West Michigan Fencing Academy,3,12,20.0%,1,10,9.1%,2,2,50.0%,Michigan,Midwest
 "
-                    Tino Tani",Southern California Fencing Academy (SOCALFA),346,129,72.8%,236,80,74.7%,110,49,69.2%,West
+                    Tino Tani",Southern California Fencing Academy (SOCALFA),346,129,72.8%,236,80,74.7%,110,49,69.2%,California,West
 "
-                    Samantha Belding",West Michigan Fencing Academy,-,-,-,-,-,-,-,-,-,Midwest
+                    Samantha Belding",West Michigan Fencing Academy,-,-,-,-,-,-,-,-,-,Michigan,Midwest
 "
-                    Nick Bentley",Rhode Island Fencing Academy And Club,28,24,53.8%,21,18,53.8%,7,6,53.8%,North
+                    Nick Bentley",Rhode Island Fencing Academy And Club,28,24,53.8%,21,18,53.8%,7,6,53.8%,Rhode Island,North
 "
-                    Joshua Paez",Texas State University Fencing Club,36,21,63.2%,28,14,66.7%,8,7,53.3%,South
+                    Joshua Paez",Texas State University Fencing Club,36,21,63.2%,28,14,66.7%,8,7,53.3%,Texas,South
 "
-                    Siena Nguyen",Southern California Fencing Academy (SOCALFA),350,265,56.9%,264,189,58.3%,86,76,53.1%,West
+                    Siena Nguyen",Southern California Fencing Academy (SOCALFA),350,265,56.9%,264,189,58.3%,86,76,53.1%,California,West
 "
-                    Liora Profis",New York Fencing Academy,578,170,77.3%,376,104,78.3%,202,66,75.4%,North
+                    Liora Profis",New York Fencing Academy,578,170,77.3%,376,104,78.3%,202,66,75.4%,New York,North
 "
-                    Joshua Sohn",Southern California Fencing Academy (SOCALFA),27,21,56.2%,21,15,58.3%,6,6,50.0%,West
+                    Joshua Sohn",Southern California Fencing Academy (SOCALFA),27,21,56.2%,21,15,58.3%,6,6,50.0%,California,West
 "
-                    Christopher Foster",University Of New Hampshire,-,-,-,-,-,-,-,-,-,North
+                    Christopher Foster",University Of New Hampshire,-,-,-,-,-,-,-,-,-,New Hampshire,North
 "
-                    Keith Kessens",Kansas City Fencing Center,8,35,18.6%,7,31,18.4%,1,4,20.0%,Midwest
+                    Keith Kessens",Kansas City Fencing Center,8,35,18.6%,7,31,18.4%,1,4,20.0%,Kansas,Midwest
 "
-                    Peter Cu",Texas State University Fencing Club,1,6,14.3%,-,5,0.0%,1,1,50.0%,South
+                    Peter Cu",Texas State University Fencing Club,1,6,14.3%,-,5,0.0%,1,1,50.0%,Texas,South
 "
-                    Carlos Grodman",New Jersey Fencing Alliance,5,9,35.7%,3,7,30.0%,2,2,50.0%,North
+                    Carlos Grodman",New Jersey Fencing Alliance,5,9,35.7%,3,7,30.0%,2,2,50.0%,New Jersey,North
 "
-                    Shalyn Shourds",Fencing Institute Of Texas,12,9,57.1%,10,6,62.5%,2,3,40.0%,South
+                    Shalyn Shourds",Fencing Institute Of Texas,12,9,57.1%,10,6,62.5%,2,3,40.0%,Texas,South
 "
-                    Leif Roiz",New York Athletic Club,-,-,-,-,-,-,-,-,-,North
+                    Leif Roiz",New York Athletic Club,-,-,-,-,-,-,-,-,-,New York,North
 "
-                    Vasil Atanassov",Oregon Fencing Alliance,605,197,75.4%,405,126,76.3%,200,71,73.8%,West
+                    Vasil Atanassov",Oregon Fencing Alliance,605,197,75.4%,405,126,76.3%,200,71,73.8%,Oregon,West
 "
-                    Spencer Burke",Pennsylvania State University NCAA,666,244,73.2%,464,148,75.8%,202,96,67.8%,North
+                    Spencer Burke",Pennsylvania State University NCAA,666,244,73.2%,464,148,75.8%,202,96,67.8%,Pennsylvania,North
 "
-                    Frederick Mittler",New Mexico Fencing Foundation,4,39,9.3%,4,36,10.0%,-,3,0.0%,West
+                    Frederick Mittler",New Mexico Fencing Foundation,4,39,9.3%,4,36,10.0%,-,3,0.0%,New Mexico,West
 "
-                    Linqian (Helen) Fu",Southern California Fencing Academy (SOCALFA),107,138,43.7%,81,109,42.6%,26,29,47.3%,West
+                    Linqian (Helen) Fu",Southern California Fencing Academy (SOCALFA),107,138,43.7%,81,109,42.6%,26,29,47.3%,California,West
 "
-                    HUGO ABEL CASTRO-SOLIS",Southern California Fencing Academy (SOCALFA),95,15,86.4%,60,7,89.6%,35,8,81.4%,West
+                    HUGO ABEL CASTRO-SOLIS",Southern California Fencing Academy (SOCALFA),95,15,86.4%,60,7,89.6%,35,8,81.4%,California,West
 "
-                    Nicholas Kakehi",Oregon Fencing Alliance,245,179,57.8%,181,127,58.8%,64,52,55.2%,West
+                    Nicholas Kakehi",Oregon Fencing Alliance,245,179,57.8%,181,127,58.8%,64,52,55.2%,Oregon,West
 "
-                    Andrew Stencel",Illinois Fencing Academy,78,91,46.2%,64,69,48.1%,14,22,38.9%,Midwest
+                    Andrew Stencel",Illinois Fencing Academy,78,91,46.2%,64,69,48.1%,14,22,38.9%,Illinois,Midwest
 "
-                    John Vano Natsvlishvili",New York Fencing Academy,131,95,58.0%,102,65,61.1%,29,30,49.2%,North
+                    John Vano Natsvlishvili",New York Fencing Academy,131,95,58.0%,102,65,61.1%,29,30,49.2%,New York,North
 "
-                    Maanas Kotha",University Of Florida Fencing Club,27,39,40.9%,19,31,38.0%,8,8,50.0%,South
+                    Maanas Kotha",University Of Florida Fencing Club,27,39,40.9%,19,31,38.0%,8,8,50.0%,Florida,South
 "
-                    Julian Brodsky",New York Fencing Academy,250,222,53.0%,194,160,54.8%,56,62,47.5%,North
+                    Julian Brodsky",New York Fencing Academy,250,222,53.0%,194,160,54.8%,56,62,47.5%,New York,North
 "
-                    Cameron Ostiguy",Rhode Island Fencing Academy And Club,203,234,46.5%,159,180,46.9%,44,54,44.9%,North
+                    Cameron Ostiguy",Rhode Island Fencing Academy And Club,203,234,46.5%,159,180,46.9%,44,54,44.9%,Rhode Island,North
 "
-                    Michael Kim",University of Southern California Trojan Fencing Club,4,4,50.0%,3,3,50.0%,1,1,50.0%,West
+                    Michael Kim",University of Southern California Trojan Fencing Club,4,4,50.0%,3,3,50.0%,1,1,50.0%,California,West
 "
-                    Grant Williams",New York Athletic Club,161,23,87.5%,92,7,92.9%,69,16,81.2%,North
+                    Grant Williams",New York Athletic Club,161,23,87.5%,92,7,92.9%,69,16,81.2%,New York,North
 "
-                    Christien Tan",Fencing Institute Of Texas,430,428,50.1%,326,322,50.3%,104,106,49.5%,South
+                    Christien Tan",Fencing Institute Of Texas,430,428,50.1%,326,322,50.3%,104,106,49.5%,Texas,South
 "
-                    Brian McDermott",Rhode Island Fencing Academy And Club,315,239,56.9%,242,175,58.0%,73,64,53.3%,North
+                    Brian McDermott",Rhode Island Fencing Academy And Club,315,239,56.9%,242,175,58.0%,73,64,53.3%,Rhode Island,North
 "
-                    Jaco Sodhi",En Garde Fencing - California,35,25,58.3%,28,17,62.2%,7,8,46.7%,West
+                    Jaco Sodhi",En Garde Fencing - California,35,25,58.3%,28,17,62.2%,7,8,46.7%,California,West
 "
-                    Averroes Bentaha",New York Fencing Academy,42,124,25.3%,33,106,23.7%,9,18,33.3%,North
+                    Averroes Bentaha",New York Fencing Academy,42,124,25.3%,33,106,23.7%,9,18,33.3%,New York,North
 "
-                    Jeff Spear ",New York Athletic Club,50,8,86.2%,34,2,94.4%,16,6,72.7%,North
+                    Jeff Spear ",New York Athletic Club,50,8,86.2%,34,2,94.4%,16,6,72.7%,New York,North
 "
-                    Sachit Kumar",Southern California Fencing Academy (SOCALFA),389,336,53.7%,298,245,54.9%,91,91,50.0%,West
+                    Sachit Kumar",Southern California Fencing Academy (SOCALFA),389,336,53.7%,298,245,54.9%,91,91,50.0%,California,West
 "
-                    Stephen Leung",Southwest Florida Fencing Academy,-,-,-,-,-,-,-,-,-,South
+                    Stephen Leung",Southwest Florida Fencing Academy,-,-,-,-,-,-,-,-,-,Florida,South
 "
-                    Yuriy Chelnitsky",New York Fencing Academy,10,21,32.3%,9,16,36.0%,1,5,16.7%,North
+                    Yuriy Chelnitsky",New York Fencing Academy,10,21,32.3%,9,16,36.0%,1,5,16.7%,New York,North
 "
-                    Jesse Lussier",Vermont Fencing Alliance,-,-,-,-,-,-,-,-,-,North
+                    Jesse Lussier",Vermont Fencing Alliance,-,-,-,-,-,-,-,-,-,Vermont,North
 "
-                    Aidan Vochoska",Southern California Fencing Academy (SOCALFA),163,107,60.4%,127,75,62.9%,36,32,52.9%,West
+                    Aidan Vochoska",Southern California Fencing Academy (SOCALFA),163,107,60.4%,127,75,62.9%,36,32,52.9%,California,West
 "
-                    Joshua Shin",Rhode Island Fencing Academy And Club,293,174,62.7%,210,115,64.6%,83,59,58.5%,North
+                    Joshua Shin",Rhode Island Fencing Academy And Club,293,174,62.7%,210,115,64.6%,83,59,58.5%,Rhode Island,North
 "
-                    Arnav Singh",University of Georgia Fencing Club,41,30,57.7%,25,23,52.1%,16,7,69.6%,South
+                    Arnav Singh",University of Georgia Fencing Club,41,30,57.7%,25,23,52.1%,16,7,69.6%,Georgia,South
 "
-                    Ahmed Abdallah",Tim Morehouse Fencing Club (Connecticut),17,8,68.0%,12,5,70.6%,5,3,62.5%,North
+                    Ahmed Abdallah",Tim Morehouse Fencing Club (Connecticut),17,8,68.0%,12,5,70.6%,5,3,62.5%,Connecticut,North
 "
-                    Eric Windsor",University Of North Texas Fencing Club,-,-,-,-,-,-,-,-,-,South
+                    Eric Windsor",University Of North Texas Fencing Club,-,-,-,-,-,-,-,-,-,Texas,South
 "
-                    Sean Maleady",Northwest Indiana Fencing Club,31,60,34.1%,25,47,34.7%,6,13,31.6%,Midwest
+                    Sean Maleady",Northwest Indiana Fencing Club,31,60,34.1%,25,47,34.7%,6,13,31.6%,Indiana,Midwest
 "
-                    Alana Torres",University Of Florida Fencing Club,21,28,42.9%,14,21,40.0%,7,7,50.0%,South
+                    Alana Torres",University Of Florida Fencing Club,21,28,42.9%,14,21,40.0%,7,7,50.0%,Florida,South
 "
-                    Jennette Starks-Faulkner",Connecticut Fencers Club,220,50,81.5%,142,27,84.0%,78,23,77.2%,North
+                    Jennette Starks-Faulkner",Connecticut Fencers Club,220,50,81.5%,142,27,84.0%,78,23,77.2%,Connecticut,North
 "
-                    Juniper DeSanto",The Fencing Knights at University Central Florida,26,74,26.0%,19,61,23.8%,7,13,35.0%,South
+                    Juniper DeSanto",The Fencing Knights at University Central Florida,26,74,26.0%,19,61,23.8%,7,13,35.0%,Florida,South
 "
-                    Aaron Buergenthal",The Ohio State University NCAA,371,153,70.8%,273,96,74.0%,98,57,63.2%,Midwest
+                    Aaron Buergenthal",The Ohio State University NCAA,371,153,70.8%,273,96,74.0%,98,57,63.2%,Ohio,Midwest
 "
-                    Boris Chen",University Of Pennsylvania NCAA,5,5,50.0%,5,4,55.6%,-,1,0.0%,North
+                    Boris Chen",University Of Pennsylvania NCAA,5,5,50.0%,5,4,55.6%,-,1,0.0%,Pennsylvania,North
 "
-                    William Xu",Washington Fencing Academy,42,75,35.9%,34,57,37.4%,8,18,30.8%,West
+                    William Xu",Washington Fencing Academy,42,75,35.9%,34,57,37.4%,8,18,30.8%,Washington,West
 "
-                    Nakula Prabakaran",Washington Fencing Academy,68,96,41.5%,58,72,44.6%,10,24,29.4%,West
+                    Nakula Prabakaran",Washington Fencing Academy,68,96,41.5%,58,72,44.6%,10,24,29.4%,Washington,West
 "
-                    Stuart Bernstein",Middle Tennessee State University Fencing Club,31,32,49.2%,23,23,50.0%,8,9,47.1%,South
+                    Stuart Bernstein",Middle Tennessee State University Fencing Club,31,32,49.2%,23,23,50.0%,8,9,47.1%,Tennessee,South
 "
-                    Zackery Hayes",University Of Tennessee Knoxville Fencing Club,39,93,29.5%,32,77,29.4%,7,16,30.4%,South
+                    Zackery Hayes",University Of Tennessee Knoxville Fencing Club,39,93,29.5%,32,77,29.4%,7,16,30.4%,Tennessee,South
 "
-                    AI JIA TANG",Rhode Island Fencing Academy And Club,48,54,47.1%,38,42,47.5%,10,12,45.5%,North
+                    AI JIA TANG",Rhode Island Fencing Academy And Club,48,54,47.1%,38,42,47.5%,10,12,45.5%,Rhode Island,North
 "
-                    Kian Dhanoa",New Jersey Fencing Alliance,67,129,34.2%,51,103,33.1%,16,26,38.1%,North
+                    Kian Dhanoa",New Jersey Fencing Alliance,67,129,34.2%,51,103,33.1%,16,26,38.1%,New Jersey,North
 "
-                    Erin Oh",University Of Pennsylvania NCAA,343,244,58.4%,259,172,60.1%,84,72,53.8%,North
+                    Erin Oh",University Of Pennsylvania NCAA,343,244,58.4%,259,172,60.1%,84,72,53.8%,Pennsylvania,North
 "
-                    Benjamin Koyfman",New York Fencing Academy,195,187,51.0%,149,139,51.7%,46,48,48.9%,North
+                    Benjamin Koyfman",New York Fencing Academy,195,187,51.0%,149,139,51.7%,46,48,48.9%,New York,North
 "
-                    Wayne Frey",Florida State University Fencing Club,176,106,62.4%,128,73,63.7%,48,33,59.3%,South
+                    Wayne Frey",Florida State University Fencing Club,176,106,62.4%,128,73,63.7%,48,33,59.3%,Florida,South
 "
-                    Magda Skarbonkiewicz",Oregon Fencing Alliance,380,50,88.4%,226,21,91.5%,154,29,84.2%,West
+                    Magda Skarbonkiewicz",Oregon Fencing Alliance,380,50,88.4%,226,21,91.5%,154,29,84.2%,Oregon,West
 "
-                    Byung Kim",New York Fencing Academy,449,260,63.3%,336,176,65.6%,113,84,57.4%,North
+                    Byung Kim",New York Fencing Academy,449,260,63.3%,336,176,65.6%,113,84,57.4%,New York,North
 "
-                    Amy Sue Greenleaf",Fencers School Of Connecticut,37,34,52.1%,28,24,53.8%,9,10,47.4%,North
+                    Amy Sue Greenleaf",Fencers School Of Connecticut,37,34,52.1%,28,24,53.8%,9,10,47.4%,Connecticut,North
 "
-                    Ian Thompson",Rhode Island Fencing Academy And Club,66,96,40.7%,51,74,40.8%,15,22,40.5%,North
+                    Ian Thompson",Rhode Island Fencing Academy And Club,66,96,40.7%,51,74,40.8%,15,22,40.5%,Rhode Island,North
 "
-                    Gideon Slusher",West Michigan Fencing Academy,180,135,57.1%,133,94,58.6%,47,41,53.4%,Midwest
+                    Gideon Slusher",West Michigan Fencing Academy,180,135,57.1%,133,94,58.6%,47,41,53.4%,Michigan,Midwest
 "
-                    Logan Torres",University of Maryland Terrapin Fencing,-,-,-,-,-,-,-,-,-,South
+                    Logan Torres",University of Maryland Terrapin Fencing,-,-,-,-,-,-,-,-,-,Maryland,South
 "
-                    Kathleen Hermes",Fencers School Of Connecticut,139,146,48.8%,112,107,51.1%,27,39,40.9%,North
+                    Kathleen Hermes",Fencers School Of Connecticut,139,146,48.8%,112,107,51.1%,27,39,40.9%,Connecticut,North
 "
-                    Alden Beals",Rhode Island Fencing Academy And Club,171,175,49.4%,122,134,47.7%,49,41,54.4%,North
+                    Alden Beals",Rhode Island Fencing Academy And Club,171,175,49.4%,122,134,47.7%,49,41,54.4%,Rhode Island,North
 "
-                    Jake Seaton",University Of Tennessee Knoxville Fencing Club,20,38,34.5%,16,30,34.8%,4,8,33.3%,South
+                    Jake Seaton",University Of Tennessee Knoxville Fencing Club,20,38,34.5%,16,30,34.8%,4,8,33.3%,Tennessee,South
 "
-                    Ciaran May",Vermont Fencing Alliance,-,-,-,-,-,-,-,-,-,North
+                    Ciaran May",Vermont Fencing Alliance,-,-,-,-,-,-,-,-,-,Vermont,North
 "
-                    Natalie Brooke Gebala",University Of California San Diego NCAA,577,229,71.6%,405,142,74.0%,172,87,66.4%,West
+                    Natalie Brooke Gebala",University Of California San Diego NCAA,577,229,71.6%,405,142,74.0%,172,87,66.4%,California,West
 "
-                    Mikayla Jassem",University Of Colorado Boulder Club,48,70,40.7%,40,56,41.7%,8,14,36.4%,West
+                    Mikayla Jassem",University Of Colorado Boulder Club,48,70,40.7%,40,56,41.7%,8,14,36.4%,Colorado,West
 "
-                    Jeremy Cho",Washington University. St. Louis,85,56,60.3%,63,41,60.6%,22,15,59.5%,West
+                    Jeremy Cho",Washington University. St. Louis,85,56,60.3%,63,41,60.6%,22,15,59.5%,Washington,West
 "
-                    Matthew Freden",University Of Colorado Boulder Club,26,37,41.3%,20,29,40.8%,6,8,42.9%,West
+                    Matthew Freden",University Of Colorado Boulder Club,26,37,41.3%,20,29,40.8%,6,8,42.9%,Colorado,West
 "
-                    Jackson Miller",Indianapolis Fencing Club,30,45,40.0%,22,34,39.3%,8,11,42.1%,Midwest
+                    Jackson Miller",Indianapolis Fencing Club,30,45,40.0%,22,34,39.3%,8,11,42.1%,Indiana,Midwest
 "
-                    James Kaull",New York Athletic Club,121,49,71.2%,86,31,73.5%,35,18,66.0%,North
+                    James Kaull",New York Athletic Club,121,49,71.2%,86,31,73.5%,35,18,66.0%,New York,North
 "
-                    Sanil Sharma",University Of California San Diego NCAA,460,220,67.6%,323,151,68.1%,137,69,66.5%,West
+                    Sanil Sharma",University Of California San Diego NCAA,460,220,67.6%,323,151,68.1%,137,69,66.5%,California,West
 "
-                    Brian Harper",Florida Fencing Academy,4,5,44.4%,4,4,50.0%,-,1,0.0%,South
+                    Brian Harper",Florida Fencing Academy,4,5,44.4%,4,4,50.0%,-,1,0.0%,Florida,South
 "
-                    Samuel Rightler",The Ohio State University NCAA,259,148,63.6%,181,106,63.1%,78,42,65.0%,Midwest
+                    Samuel Rightler",The Ohio State University NCAA,259,148,63.6%,181,106,63.1%,78,42,65.0%,Ohio,Midwest
 "
-                    Rayaana Grulich",Oregon Fencing Alliance,260,267,49.3%,202,197,50.6%,58,70,45.3%,West
+                    Rayaana Grulich",Oregon Fencing Alliance,260,267,49.3%,202,197,50.6%,58,70,45.3%,Oregon,West
 "
-                    Joseph Griffith","Fencing Illini, University of Illinois",86,43,66.7%,60,28,68.2%,26,15,63.4%,Midwest
+                    Joseph Griffith","Fencing Illini, University of Illinois",86,43,66.7%,60,28,68.2%,26,15,63.4%,Illinois,Midwest
 "
-                    Ethan Insler",Rhode Island Fencing Academy And Club,536,287,65.1%,388,195,66.6%,148,92,61.7%,North
+                    Ethan Insler",Rhode Island Fencing Academy And Club,536,287,65.1%,388,195,66.6%,148,92,61.7%,Rhode Island,North
 "
-                    Saininad Naik",University of Alabama in Huntsville Fencing Club,54,24,69.2%,41,14,74.5%,13,10,56.5%,South
-"
-                    Mohammad Qashou",Vermont Fencing Alliance,-,-,-,-,-,-,-,-,-,North
-"
-                    Anika Breker",Rhode Island Fencing Academy And Club,333,166,66.7%,240,106,69.4%,93,60,60.8%,North
-"
-                    Thomas Knight",University Of Tennessee Knoxville Fencing Club,16,10,61.5%,12,6,66.7%,4,4,50.0%,South
-"
-                    Lara Szpak",Illinois Fencers Club,60,42,58.8%,43,33,56.6%,17,9,65.4%,Midwest
-"
-                    Dhananjay Bhaskar",Delaware Valley Fencers Club-PA,14,23,37.8%,11,18,37.9%,3,5,37.5%,South
-"
-                    Myrka Boyd",Fencing Institute Of Texas,9,3,75.0%,7,1,87.5%,2,2,50.0%,South
-"
-                    Landon Shchur",New York Fencing Academy,527,268,66.3%,377,174,68.4%,150,94,61.5%,North
-"
-                    Douglas Green",West Michigan Fencing Academy,3,13,18.8%,3,10,23.1%,-,3,0.0%,Midwest
-"
-                    Elijah Bolle",University of South Florida Fencing Club,36,64,36.0%,26,50,34.2%,10,14,41.7%,South
-"
-                    Heather Rhea",Central Iowa Fencing Academy,34,75,31.2%,28,59,32.2%,6,16,27.3%,Midwest
-"
-                    yat ching lee",South Florida Fencing Club,263,139,65.4%,189,91,67.5%,74,48,60.7%,South
-"
-                    Chad Crouse",Middle Tennessee State University Fencing Club,-,-,-,-,-,-,-,-,-,South
-"
-                    Michael Wei",New York Fencing Academy,83,120,40.9%,67,95,41.4%,16,25,39.0%,North
-"
-                    Shadi Resheidat",Indianapolis Fencing Club,67,42,61.5%,52,28,65.0%,15,14,51.7%,Midwest
-"
-                    Luke Strauss",Northern Colorado Fencers,634,371,63.1%,442,262,62.8%,192,109,63.8%,West
-"
-                    Arden Sangster",Oregon Fencing Alliance,141,195,42.0%,108,152,41.5%,33,43,43.4%,West
-"
-                    Audreen Bandegan",University of California Davis,19,15,55.9%,14,10,58.3%,5,5,50.0%,West
-"
-                    Nicolas Burton",Arizona State University Fencing Club,11,19,36.7%,10,14,41.7%,1,5,16.7%,West
-"
-                    Lucas Marin",South Florida Fencing Club,142,168,45.8%,112,129,46.5%,30,39,43.5%,South
-"
-                    Hamsika Arnipalli",The Ohio State University NCAA,115,83,58.1%,89,60,59.7%,26,23,53.1%,Midwest
-"
-                    Peter Kulaga",Illinois Fencers Club,36,31,53.7%,29,23,55.8%,7,8,46.7%,Midwest
-"
-                    Alexandra Rakhovski",New York Fencing Academy,547,156,77.8%,348,88,79.8%,199,68,74.5%,North
-"
-                    Yury Molchan",Fencing Institute Of Texas,19,1,95.0%,10,-,100.0%,9,1,90.0%,South
-"
-                    Grant Campbell",University Of Wyoming Fencing Club,13,3,81.2%,10,1,90.9%,3,2,60.0%,West
-"
-                    Andy Joyce",Kansas City Fencing Center,4,3,57.1%,4,2,66.7%,-,1,0.0%,Midwest
-"
-                    Joshua Kaufman",Arizona State University Fencing Club,33,17,66.0%,25,10,71.4%,8,7,53.3%,West
-"
-                    Michael Aufrichtig",New York Athletic Club,-,-,-,-,-,-,-,-,-,North
-"
-                    Nicholas Hallman",Texas Fencing Academy,8,1,88.9%,6,-,100.0%,2,1,66.7%,South
-"
-                    Daniel Wong",University Of California San Diego NCAA,161,155,50.9%,123,118,51.0%,38,37,50.7%,West
-"
-                    Siobhan Sullivan",Oregon Fencing Alliance,446,114,79.6%,296,64,82.2%,150,50,75.0%,West
-"
-                    Levi Atkins",New York Fencing Academy,114,108,51.4%,87,80,52.1%,27,28,49.1%,North
-"
-                    Jonathan Bartlett",New York Athletic Club,147,55,72.8%,97,36,72.9%,50,19,72.5%,North
-"
-                    Claire Lee",Indianapolis Fencing Club,74,129,36.5%,58,99,36.9%,16,30,34.8%,Midwest
-"
-                    Hannah Hoverman",New York University NCAA,62,95,39.5%,53,76,41.1%,9,19,32.1%,North
-"
-                    Michael Rickert",Northwest Indiana Fencing Club,21,43,32.8%,18,35,34.0%,3,8,27.3%,Midwest
-"
-                    Lucy Hanlon",Central Pennsylvania Fencing Association,63,72,46.7%,50,55,47.6%,13,17,43.3%,North
-"
-                    Merci Oca",Southern California Fencing Academy (SOCALFA),49,55,47.1%,36,41,46.8%,13,14,48.1%,West
-"
-                    Mia Smotritsky",New York Fencing Academy,468,318,59.5%,352,220,61.5%,116,98,54.2%,North
-"
-                    ALEXANDER XUE",New York University NCAA,243,169,59.0%,186,119,61.0%,57,50,53.3%,North
-"
-                    Brennan Eaheart",Iowa State University Fencing Club,7,2,77.8%,4,1,80.0%,3,1,75.0%,Midwest
-"
-                    Philip Reilly ",Oregon Fencing Alliance,44,24,64.7%,31,18,63.3%,13,6,68.4%,West
-"
-                    Joshua Yavorovskiy",New York Fencing Academy,375,253,59.7%,279,177,61.2%,96,76,55.8%,North
-"
-                    Vincent Haney",The Ohio State University NCAA,75,72,51.0%,60,56,51.7%,15,16,48.4%,Midwest
-"
-                    Madeleine McCreary",University Of Florida Fencing Club,51,115,30.7%,40,93,30.1%,11,22,33.3%,South
-"
-                    David Liu",Southern California Fencing Academy (SOCALFA),177,96,64.8%,124,66,65.3%,53,30,63.9%,West
-"
-                    Mitchell Smith",Washington University. St. Louis,154,69,69.1%,116,44,72.5%,38,25,60.3%,West
-"
-                    Tim Edwards",Eastern Kentucky University Fencing Club,70,60,53.8%,52,44,54.2%,18,16,52.9%,South
-"
-                    Sophia Mirza",Fencing Institute Of Texas,95,116,45.0%,74,90,45.1%,21,26,44.7%,South
-"
-                    Raiyan Moradi",The Ohio State University NCAA,239,272,46.8%,192,204,48.5%,47,68,40.9%,Midwest
-"
-                    Justin Tann",University Of California San Diego NCAA,409,265,60.7%,308,183,62.7%,101,82,55.2%,West
-"
-                    Calvin McKee",Fencing Institute Of Texas,97,282,25.6%,83,230,26.5%,14,52,21.2%,South
-"
-                    Joshua Zhang",New York Athletic Club,168,99,62.9%,121,71,63.0%,47,28,62.7%,North
-"
-                    Declan McAdoo",Northern Colorado Fencers,266,226,54.1%,214,161,57.1%,52,65,44.4%,West
-"
-                    Tean Brooks",Northern Colorado Fencers,147,127,53.6%,113,95,54.3%,34,32,51.5%,West
-"
-                    Paul Geraci",Indianapolis Fencing Club,111,65,63.1%,80,45,64.0%,31,20,60.8%,Midwest
-"
-                    James Liebich",En Garde Fencing - California,-,-,-,-,-,-,-,-,-,West
-"
-                    Andrew Crowder",Rhode Island Fencing Academy And Club,22,16,57.9%,16,11,59.3%,6,5,54.5%,North
-"
-                    Katherine Rummel",Illinois Fencing Academy,112,189,37.2%,92,147,38.5%,20,42,32.3%,Midwest
-"
-                    Ronald (Mackie) DenBroeder",Delaware Valley Fencers Club-PA,185,116,61.5%,143,80,64.1%,42,36,53.8%,South
-"
-                    Madelyn Zamelis",New York University NCAA,85,328,20.6%,73,286,20.3%,12,42,22.2%,North
-"
-                    Alexander Kercher",Texas Fencing Academy,285,259,52.4%,216,191,53.1%,69,68,50.4%,South
-"
-                    Aaron Cook",Northwest Indiana Fencing Club,13,15,46.4%,9,11,45.0%,4,4,50.0%,Midwest
-"
-                    Kobi Nott",Iowa City Fencing Center,19,23,45.2%,14,18,43.8%,5,5,50.0%,Midwest
-"
-                    Derek Williams",University Alaska Fairbanks Fencing Club,24,27,47.1%,21,20,51.2%,3,7,30.0%,West
-"
-                    Finn McDowell",Virginia Tech Fencing Club,19,56,25.3%,16,45,26.2%,3,11,21.4%,South
-"
-                    Shanrael Murphy",Iowa City Fencing Center,16,29,35.6%,12,24,33.3%,4,5,44.4%,Midwest
-"
-                    Zoe Zheng",California Fencing Academy,290,617,32.0%,240,495,32.7%,50,122,29.1%,West
-"
-                    Natalia Toby",New York Athletic Club,114,44,72.2%,89,26,77.4%,25,18,58.1%,North
-"
-                    Elijah Paszek",Miami University Fencing Ohio,48,58,45.3%,37,44,45.7%,11,14,44.0%,Midwest
-"
-                    Simon Goldenbogen",Vermont Fencing Alliance,-,-,-,-,-,-,-,-,-,North
-"
-                    Anna Paul",Illinois Fencers Club,23,11,67.6%,17,7,70.8%,6,4,60.0%,Midwest
-"
-                    Anton Dutchak",New York Fencing Academy,-,-,-,-,-,-,-,-,-,North
-"
-                    Edriss Ndiaye",The Ohio State University NCAA,297,96,75.6%,201,54,78.8%,96,42,69.6%,Midwest
-"
-                    Andrew Otersen",University Of New Hampshire,-,-,-,-,-,-,-,-,-,North
-"
-                    Dahlia Pahlavi",Rhode Island Fencing Academy And Club,507,418,54.8%,385,301,56.1%,122,117,51.0%,North
-"
-                    Francis Orozco",University Of Florida Fencing Club,52,38,57.8%,35,27,56.5%,17,11,60.7%,South
-"
-                    Gregoire Sitter",En Garde Fencing - California,58,47,55.2%,43,33,56.6%,15,14,51.7%,West
-"
-                    Charlotte Canning",Rhode Island Fencing Academy And Club,285,221,56.3%,226,157,59.0%,59,64,48.0%,North
-"
-                    Rory Scobie",New Mexico Fencing Foundation,6,2,75.0%,4,1,80.0%,2,1,66.7%,West
-"
-                    Eleonore Perrier",The Ohio State University NCAA,37,13,74.0%,27,9,75.0%,10,4,71.4%,Midwest
-"
-                    Anthony Pei",Washington Fencing Academy,7,7,50.0%,4,5,44.4%,3,2,60.0%,West
-"
-                    William Altier",Michigan State University Fencing Club,14,31,31.1%,11,24,31.4%,3,7,30.0%,Midwest
-"
-                    William Winget",Indianapolis Fencing Club,77,34,69.4%,55,21,72.4%,22,13,62.9%,Midwest
-"
-                    Suparna Vashisht",California Fencing Academy,40,24,62.5%,29,15,65.9%,11,9,55.0%,West
-"
-                    Sydney Orlofsky",University of Georgia Fencing Club,85,66,56.3%,62,51,54.9%,23,15,60.5%,South
-"
-                    Ryan Wright",Texas Fencing Academy,12,3,80.0%,9,1,90.0%,3,2,60.0%,South
-"
-                    Lindsey Barney",Wildcat Fencing-University of Arizona,6,29,17.1%,6,24,20.0%,-,5,0.0%,West
-"
-                    Nicholas Beatty",Iowa City Fencing Center,8,1,88.9%,6,-,100.0%,2,1,66.7%,Midwest
-"
-                    Scott Lao",University Of California San Diego NCAA,340,185,64.8%,250,124,66.8%,90,61,59.6%,West
-"
-                    Jessica Young",Kansas City Fencing Center,11,9,55.0%,9,7,56.2%,2,2,50.0%,Midwest
-"
-                    Kate Dusinlleux",University Of New Hampshire,24,17,58.5%,17,12,58.6%,7,5,58.3%,North
-"
-                    Misha Gujja",New York Fencing Academy,401,340,54.1%,314,243,56.4%,87,97,47.3%,North
-"
-                    Elizabeth Zigalo",New York Fencing Academy,608,234,72.2%,444,134,76.8%,164,100,62.1%,North
-"
-                    Nico Pope",Pennsylvania State University NCAA,421,269,61.0%,326,189,63.3%,95,80,54.3%,North
-"
-                    Jerry Adkins",Indianapolis Fencing Club,12,16,42.9%,10,11,47.6%,2,5,28.6%,Midwest
-"
-                    Emily Conrad",New York Fencing Academy,5,3,62.5%,3,2,60.0%,2,1,66.7%,North
-"
-                    Levent Nakas",New York Fencing Academy,348,122,74.0%,234,74,76.0%,114,48,70.4%,North
-"
-                    Andy Xian",New York Fencing Academy,16,24,40.0%,12,19,38.7%,4,5,44.4%,North
-"
-                    Scarlett Lee",New York Fencing Academy,302,119,71.7%,220,71,75.6%,82,48,63.1%,North
-"
-                    Lyndsay Wagner",University of Georgia Fencing Club,52,20,72.2%,35,14,71.4%,17,6,73.9%,South
-"
-                    Evan Midyany",New York Fencing Academy,209,95,68.8%,150,58,72.1%,59,37,61.5%,North
-"
-                    Maximus Yang",Georgia Southern University Fencing Club,23,15,60.5%,17,10,63.0%,6,5,54.5%,South
-"
-                    Neil Yoder",Indiana University of PA (IUP) Fencing Club,29,18,61.7%,23,13,63.9%,6,5,54.5%,Midwest
-"
-                    Sergey Danilov",New York Fencing Academy,-,-,-,-,-,-,-,-,-,North
-"
-                    Chet Russell",University Of Wyoming Fencing Club,36,21,63.2%,27,14,65.9%,9,7,56.2%,West
-"
-                    ian Ripley",Indianapolis Fencing Club,116,53,68.6%,83,34,70.9%,33,19,63.5%,Midwest
-"
-                    Sara Pettit",Iowa City Fencing Center,34,31,52.3%,24,23,51.1%,10,8,55.6%,Midwest
-"
-                    MIranda Gallagher",Vermont Fencing Alliance,-,14,0.0%,-,12,0.0%,-,2,0.0%,North
-"
-                    Dusty (Allen) Reed",Indianapolis Fencing Club,121,85,58.7%,88,58,60.3%,33,27,55.0%,Midwest
-"
-                    Andrew Strayer",Delaware Valley Fencers Club-PA,239,221,52.0%,179,169,51.4%,60,52,53.6%,South
-"
-                    Dan Corrigan",Arizona State University Fencing Club,-,-,-,-,-,-,-,-,-,West
-"
-                    aragon herrera",Southern California Fencing Academy (SOCALFA),160,258,38.3%,128,202,38.8%,32,56,36.4%,West
-"
-                    Morgan Partridge",Rhode Island Fencing Academy And Club,129,46,73.7%,99,25,79.8%,30,21,58.8%,North
-"
-                    Bruce Tabor",Texas Fencing Academy,6,2,75.0%,4,1,80.0%,2,1,66.7%,South
-"
-                    Thomas Fitzgerald",Central Iowa Fencing Academy,13,35,27.1%,10,29,25.6%,3,6,33.3%,Midwest
-"
-                    Abdoulaye Thiam",New Jersey Fencing Alliance,-,-,-,-,-,-,-,-,-,North
-"
-                    Katarzyna Trzopek ",New York Athletic Club,-,-,-,-,-,-,-,-,-,North
-"
-                    Annie D'Arcy",Fencing Institute Of Texas,34,44,43.6%,27,35,43.5%,7,9,43.8%,South
-"
-                    Aarthi Mallavarpu",Illinois Fencing Academy,455,227,66.7%,334,153,68.6%,121,74,62.1%,Midwest
-"
-                    Tia Goodson",New Jersey Fencing Alliance,7,15,31.8%,4,12,25.0%,3,3,50.0%,North
-"
-                    Daniel Miller",Fencing Club at Indiana University,7,8,46.7%,6,6,50.0%,1,2,33.3%,Midwest
-"
-                    Adam Wong",New York University NCAA,277,97,74.1%,196,63,75.7%,81,34,70.4%,North
-"
-                    Ishani Sood",California Fencing Academy,682,281,70.8%,482,179,72.9%,200,102,66.2%,West
-"
-                    Lucy Whittemore",The Ohio State University NCAA,197,171,53.5%,158,132,54.5%,39,39,50.0%,Midwest
-"
-                    Elina Chernykh",Fencing Institute Of Texas,221,181,55.0%,168,128,56.8%,53,53,50.0%,South
-"
-                    Jeffrey Longstreet",New York Fencing Academy,269,262,50.7%,214,196,52.2%,55,66,45.5%,North
-"
-                    Diego Cervantes",The Ohio State University NCAA,57,15,79.2%,36,8,81.8%,21,7,75.0%,Midwest
-"
-                    Polina Kharchyna",New York Fencing Academy,125,50,71.4%,87,31,73.7%,38,19,66.7%,North
-"
-                    Nathan Cheng",The Ohio State University NCAA,388,297,56.6%,292,214,57.7%,96,83,53.6%,Midwest
-"
-                    Kristen Ruscitelli",The Ohio State University NCAA,6,9,40.0%,5,7,41.7%,1,2,33.3%,Midwest
-"
-                    Rebecca Meyer",New York Fencing Academy,212,316,40.2%,167,248,40.2%,45,68,39.8%,North
-"
-                    Matthew MacNeil",Indianapolis Fencing Club,25,21,54.3%,16,15,51.6%,9,6,60.0%,Midwest
-"
-                    Muriel Cawthorn",Rhode Island Fencing Academy And Club,108,149,42.0%,83,112,42.6%,25,37,40.3%,North
-"
-                    Mukul Sammi",Oregon Fencing Alliance,178,187,48.8%,132,140,48.5%,46,47,49.5%,West
-"
-                    Donald Anderson",New Mexico Fencing Foundation,53,342,13.4%,48,285,14.4%,5,57,8.1%,West
-"
-                    Nicholas Zografos",New York Fencing Academy,107,248,30.1%,88,202,30.3%,19,46,29.2%,North
-"
-                    Marketa Douglas",Rhode Island Fencing Academy And Club,155,150,50.8%,122,111,52.4%,33,39,45.8%,North
-"
-                    Dylan Nollner",New York Athletic Club,130,64,67.0%,88,43,67.2%,42,21,66.7%,North
-"
-                    Marta Sanchez-Emden",South Florida Fencing Club,92,81,53.2%,75,57,56.8%,17,24,41.5%,South
-"
-                    Lucas Zeng",University Of California San Diego NCAA,466,207,69.2%,328,130,71.6%,138,77,64.2%,West
-"
-                    Liam Herndon",Fencing Institute Of Texas,417,372,52.9%,306,272,52.9%,111,100,52.6%,South
-"
-                    Celine Wu",New Jersey Fencing Alliance,159,99,61.6%,115,69,62.5%,44,30,59.5%,North
-"
-                    Alex Florian",West Michigan Fencing Academy,5,7,41.7%,5,5,50.0%,-,2,0.0%,Midwest
-"
-                    Jessica Dunne",Tim Morehouse Fencing Club (Connecticut),16,44,26.7%,12,36,25.0%,4,8,33.3%,North
-"
-                    Ingrid Mendiola Ritchie",Southern California Fencing Academy (SOCALFA),88,59,59.9%,66,41,61.7%,22,18,55.0%,West
-"
-                    Esmeralda Gugino",West Michigan Fencing Academy,13,14,48.1%,8,10,44.4%,5,4,55.6%,Midwest
-"
-                    Will Buchanan",University of Alabama in Huntsville Fencing Club,9,1,90.0%,6,-,100.0%,3,1,75.0%,South
-"
-                    Douglas Krafft",Mississippi Fencing Club,18,6,75.0%,15,3,83.3%,3,3,50.0%,South
-"
-                    Avery Townsend",University Of Pennsylvania NCAA,361,116,75.7%,232,77,75.1%,129,39,76.8%,North
-"
-                    Dominic Nicholson",En Garde Fencing - California,40,28,58.8%,30,20,60.0%,10,8,55.6%,West
-"
-                    Mark Lundborg",Washington Fencing Academy,139,18,88.5%,87,10,89.7%,52,8,86.7%,West
-"
-                    Jacob Hoyle ",New York Athletic Club,66,14,82.5%,41,7,85.4%,25,7,78.1%,North
-"
-                    Nolan Giovagnoli",Northern Colorado Fencers,264,263,50.1%,193,202,48.9%,71,61,53.8%,West
-"
-                    SAUL FRIAS",Southern California Fencing Academy (SOCALFA),64,29,68.8%,46,19,70.8%,18,10,64.3%,West
-"
-                    Dylan Kats",New York Fencing Academy,526,189,73.6%,356,120,74.8%,170,69,71.1%,North
-"
-                    Elliot Davidson",Rhode Island Fencing Academy And Club,346,348,49.9%,277,260,51.6%,69,88,43.9%,North
-"
-                    Qihang Shi",University Of Texas Fencing Club at Austin,5,3,62.5%,3,2,60.0%,2,1,66.7%,South
-"
-                    Mykhaylo Mokretsov",New York Fencing Academy,-,-,-,-,-,-,-,-,-,North
-"
-                    Wesley Phillips",Texas Fencing Academy,112,97,53.6%,88,69,56.1%,24,28,46.2%,South
-"
-                    Ammon Fillmore",Indianapolis Fencing Club,-,-,-,-,-,-,-,-,-,Midwest
-"
-                    Olivia voskov",New York Fencing Academy,150,148,50.3%,120,106,53.1%,30,42,41.7%,North
-"
-                    Maya Lawrence ",New York Athletic Club,-,-,-,-,-,-,-,-,-,North
-"
-                    Wilfred Curioso",Rhode Island Fencing Academy And Club,-,-,-,-,-,-,-,-,-,North
-"
-                    Melany Hernandez",The Ohio State University Fencing Club,39,87,31.0%,33,69,32.4%,6,18,25.0%,Midwest
-"
-                    Hailey Blair",University Of Tennessee Knoxville Fencing Club,11,24,31.4%,10,18,35.7%,1,6,14.3%,South
-"
-                    Gabriel Insler",Rhode Island Fencing Academy And Club,207,127,62.0%,151,96,61.1%,56,31,64.4%,North
-"
-                    Jacob Malone",University of North Carolina Charlotte Fencing Club,64,80,44.4%,46,61,43.0%,18,19,48.6%,South
-"
-                    Kevin Yuan",University of Wisconsin-Madison,271,227,54.4%,204,164,55.4%,67,63,51.5%,Midwest
-"
-                    Renee Zuhars",University Of California San Diego NCAA,424,220,65.8%,314,149,67.8%,110,71,60.8%,West
-"
-                    Nathan Guan",South Florida Fencing Club,261,247,51.4%,203,184,52.5%,58,63,47.9%,South
-"
-                    Lorenzo Mion",The Ohio State University NCAA,170,68,71.4%,123,46,72.8%,47,22,68.1%,Midwest
-"
-                    Bartlomiej Florczak",Tim Morehouse Fencing Club (Connecticut),-,-,-,-,-,-,-,-,-,North
-"
-                    Gordon Leadbetter",Florida State University Fencing Club,94,74,56.0%,71,52,57.7%,23,22,51.1%,South
-"
-                    Anthony Flynn",Texas Fencing Academy,5,3,62.5%,4,2,66.7%,1,1,50.0%,South
-"
-                    Ben Gilsbach",Texas Fencing Academy,25,50,33.3%,19,41,31.7%,6,9,40.0%,South
-"
-                    Jakub Nowak",Illinois Fencing Academy,212,90,70.2%,146,59,71.2%,66,31,68.0%,Midwest
-"
-                    Dexter Martin",Iowa City Fencing Center,10,64,13.5%,9,55,14.1%,1,9,10.0%,Midwest
-"
-                    Keith Quarles",Maryland Fencing Club,-,-,-,-,-,-,-,-,-,South
-"
-                    Thomas Bush",Rhode Island Fencing Academy And Club,202,130,60.8%,162,85,65.6%,40,45,47.1%,North
-"
-                    Thea Fernandes",California Fencing Academy,404,388,51.0%,318,285,52.7%,86,103,45.5%,West
-"
-                    Yao Rong",University Of California San Diego NCAA,177,49,78.3%,113,28,80.1%,64,21,75.3%,West
-"
-                    Alexander Tsinis",New York Athletic Club,150,50,75.0%,106,31,77.4%,44,19,69.8%,North
-"
-                    Zachariah Lamoreaux",Vermont Fencing Alliance,-,-,-,-,-,-,-,-,-,North
-"
-                    Iaroslav Ponomarenko",New York Fencing Academy,-,-,-,-,-,-,-,-,-,North
-"
-                    Brent Myers",Southwest Florida Fencing Academy,53,112,32.1%,44,88,33.3%,9,24,27.3%,South
-"
-                    Evan Dobbins",Fencers School Of Connecticut,179,155,53.6%,142,116,55.0%,37,39,48.7%,North
-"
-                    Milan Rona",University Of California San Diego NCAA,26,5,83.9%,15,2,88.2%,11,3,78.6%,West
-"
-                    Thomas Hanahan",Indianapolis Fencing Club,67,40,62.6%,47,27,63.5%,20,13,60.6%,Midwest
-"
-                    Ryan Hudson",The University of Texas @ San Antonio Fencing Club,10,10,50.0%,8,7,53.3%,2,3,40.0%,South
-"
-                    Ethan Zaydman",New York Fencing Academy,359,204,63.8%,272,135,66.8%,87,69,55.8%,North
-"
-                    Nathan Ege",New Jersey Fencing Alliance,12,97,11.0%,10,82,10.9%,2,15,11.8%,North
-"
-                    Jaesun Yun",Southern California Fencing Academy (SOCALFA),461,134,77.5%,303,74,80.4%,158,60,72.5%,West
-"
-                    Julia Semikin",The Ohio State University NCAA,312,169,64.9%,233,120,66.0%,79,49,61.7%,Midwest
-"
-                    Cougar Seale",Texas Fencing Academy,60,65,48.0%,46,51,47.4%,14,14,50.0%,South
-"
-                    Nicholas Piperis",Florida Atlantic University Fencing Club,9,12,42.9%,6,9,40.0%,3,3,50.0%,South
-"
-                    Yaretzi Fournet-Fayard",Fencing Institute Of Texas,52,42,55.3%,39,29,57.4%,13,13,50.0%,South
-"
-                    Isabella Chin",New York Fencing Academy,507,163,75.7%,348,94,78.7%,159,69,69.7%,North
-"
-                    Jessica Davis",New York Athletic Club,176,85,67.4%,118,60,66.3%,58,25,69.9%,North
-"
-                    Michael Lauer",Indianapolis Fencing Club,72,38,65.5%,54,23,70.1%,18,15,54.5%,Midwest
-"
-                    Christopher Vanden Brook",Washington Fencing Academy,50,61,45.0%,37,46,44.6%,13,15,46.4%,West
-"
-                    Julia Hill",University Of California San Diego NCAA,43,26,62.3%,32,19,62.7%,11,7,61.1%,West
-"
-                    Kyle Sozanski",The Ohio State University Fencing Club,24,34,41.4%,18,26,40.9%,6,8,42.9%,Midwest
-"
-                    Rachel Meyer",New York Fencing Academy,180,293,38.1%,140,230,37.8%,40,63,38.8%,North
-"
-                    Erick Smith",Indianapolis Fencing Club,119,87,57.8%,93,59,61.2%,26,28,48.1%,Midwest
-"
-                    Chloe Fox-Gitomer",Oregon Fencing Alliance,239,42,85.1%,146,21,87.4%,93,21,81.6%,West
-"
-                    Matthew Trager",New York Athletic Club,58,39,59.8%,41,30,57.7%,17,9,65.4%,North
-"
-                    Donald Lear",Southwest Florida Fencing Academy,81,67,54.7%,62,47,56.9%,19,20,48.7%,South
-"
-                    Victoria Kuznetsov",University Of Pennsylvania NCAA,508,210,70.8%,351,133,72.5%,157,77,67.1%,North
-"
-                    Paige Bedworth",University Of Tennessee Knoxville Fencing Club,16,16,50.0%,12,11,52.2%,4,5,44.4%,South
-"
-                    Arnav Raja",University Of California San Diego NCAA,306,173,63.9%,225,121,65.0%,81,52,60.9%,West
-"
-                    Jorge Natera Carmona",Texas A&M University Fencing,42,20,67.7%,29,13,69.0%,13,7,65.0%,South
-"
-                    Christine Tadlock",Fencing Institute Of Texas,123,121,50.4%,90,88,50.6%,33,33,50.0%,South
-"
-                    Kyle Yi",Pennsylvania State University NCAA,94,74,56.0%,69,57,54.8%,25,17,59.5%,North
-"
-                    André Emden",South Florida Fencing Club,174,84,67.4%,121,55,68.8%,53,29,64.6%,South
-"
-                    Joaquin Montoya",New Mexico Fencing Foundation,3,4,42.9%,3,3,50.0%,-,1,0.0%,West
-"
-                    Samantha Matz",Fencing Institute Of Texas,16,17,48.5%,13,14,48.1%,3,3,50.0%,South
-"
-                    Kaleah Baird",Southern California Fencing Academy (SOCALFA),53,134,28.3%,45,110,29.0%,8,24,25.0%,West
-"
-                    Eric Nassos",Illinois Fencing Academy,23,22,51.1%,20,15,57.1%,3,7,30.0%,Midwest
-"
-                    Aidan Burleson",University Of Tennessee Knoxville Fencing Club,23,11,67.6%,17,7,70.8%,6,4,60.0%,South
-"
-                    Redmond Sullivan",Fencers School Of Connecticut,27,43,38.6%,21,34,38.2%,6,9,40.0%,North
-"
-                    Sophia Schiminovich",Oregon Fencing Alliance,457,219,67.6%,317,154,67.3%,140,65,68.3%,West
-"
-                    Paul Hicha",Arizona State University Fencing Club,122,111,52.4%,96,79,54.9%,26,32,44.8%,West
-"
-                    Obadiah Gremillion",Southern California Fencing Academy (SOCALFA),222,291,43.3%,173,222,43.8%,49,69,41.5%,West
-"
-                    Adrian Byon",Southern California Fencing Academy (SOCALFA),350,235,59.8%,252,168,60.0%,98,67,59.4%,West
-"
-                    Hyder Cheema",Oregon Fencing Alliance,228,150,60.3%,173,106,62.0%,55,44,55.6%,West
-"
-                    Mario Jelev",South Florida Fencing Club,82,33,71.3%,63,19,76.8%,19,14,57.6%,South
-"
-                    Brian Kaneshige",New Jersey Fencing Alliance,66,13,83.5%,42,5,89.4%,24,8,75.0%,North
-"
-                    Kevin Sohn",Southern California Fencing Academy (SOCALFA),350,154,69.4%,233,100,70.0%,117,54,68.4%,West
-"
-                    Delia Turner",Delaware Valley Fencers Club-PA,114,34,77.0%,86,22,79.6%,28,12,70.0%,South
-"
-                    Hayden Kelley",Rhode Island Fencing Academy And Club,42,62,40.4%,35,46,43.2%,7,16,30.4%,North
-"
-                    Grace Hu",University Of Pennsylvania NCAA,235,104,69.3%,168,66,71.8%,67,38,63.8%,North
-"
-                    Gian Dhingra",Southern California Fencing Academy (SOCALFA),495,195,71.7%,340,122,73.6%,155,73,68.0%,West
-"
-                    Evan Decker",Iowa City Fencing Center,22,43,33.8%,18,34,34.6%,4,9,30.8%,Midwest
-"
-                    Walker Miley",Northern Colorado Fencers,182,262,41.0%,138,203,40.5%,44,59,42.7%,West
-"
-                    Jeddie Sophronius",University of Virginia Fencing Club,42,32,56.8%,34,22,60.7%,8,10,44.4%,South
-"
-                    Riley Parker",Texas Fencing Academy,185,211,46.7%,151,163,48.1%,34,48,41.5%,South
-"
-                    Leo Popokh",Fencing Institute Of Texas,132,80,62.3%,93,54,63.3%,39,26,60.0%,South
-"
-                    Joseph Ripa",Rhode Island Fencing Academy And Club,185,409,31.1%,151,327,31.6%,34,82,29.3%,North
-"
-                    joachim creten",Oregon Fencing Alliance,60,89,40.3%,49,68,41.9%,11,21,34.4%,West
-"
-                    Johndale Carty JR",South Florida Fencing Club,292,224,56.6%,215,158,57.6%,77,66,53.8%,South
+                    Saininad Naik",University of Alabama in Huntsville Fencing Club,54,24,69.2%,41,14,74.5%,13,10,56.5%,Alabama,South

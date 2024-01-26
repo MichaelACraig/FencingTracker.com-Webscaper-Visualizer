@@ -1,6 +1,12 @@
 import csv
 import shutil
 
+#NOTES
+"""
+If reverting to mac build to work on this project, remove encoding portion for line 36
+
+"""
+
 #Lists containing all US states and their respective regions
 USStates = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida',
             'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana',
@@ -28,11 +34,12 @@ def regionFilter(inputFile,edgeCaseFile,outputFile):
     shutil.copy(inputFile, backupFile)
 
     #Read the backupFile to get the fieldnames and place the region column in its respective position
-    with open(backupFile, 'r') as csvfile:
+    with open(backupFile, 'r', encoding= 'utf-8') as csvfile:
             csvReader = csv.DictReader(csvfile)
             data = list(csvReader)
 
-    fieldnames = list(data[0].keys())    
+    fieldnames = list(data[0].keys())
+    fieldnames.append('State')    
     fieldnames.append('Region')  
 
     #Edit the inputFile to include the new column
@@ -58,6 +65,7 @@ def regionFilter(inputFile,edgeCaseFile,outputFile):
             #Using a list of all US states, if a club has a state in its name, assign that state to the person in the region column
             for state in USStates:
                 if state in USStates and state in row['CLUBS']:
+                    row['State'] = state
                     #If the person is in the US, place them in their respective region
                     if state in Midwest:
                         row['Region'] = 'Midwest'
@@ -78,4 +86,10 @@ def regionFilter(inputFile,edgeCaseFile,outputFile):
 
     print("Complete")         
 
-regionFilter("/Users/michaelcraig/Desktop/Projects/FencingTracker.com-Webscaper-Visualizer/Outputs/ScrapedData.csv","/Users/michaelcraig/Desktop/Projects/FencingTracker.com-Webscaper-Visualizer/Outputs/TwoClubFencers.csv", "/Users/michaelcraig/Desktop/Projects/FencingTracker.com-Webscaper-Visualizer/Outputs/RegionData.csv")
+#Commands below are for personal use; Reconfigure for your own use on line 92
+
+#Windows Run Command
+regionFilter("C:\\Users\\13212\\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Outputs\\ScrapedData.csv","C:\\Users\\13212\\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Outputs\\TwoClubFencers.csv", "C:\\Users\\13212\\Desktop\\Project Files\\FencingTrackerWebScraper\\FencingTracker.com-Webscaper-Visualizer\\Outputs\\RegionData.csv")
+
+#Mac Run Command
+#regionFilter("/Users/michaelcraig/Desktop/Projects/FencingTracker.com-Webscaper-Visualizer/Outputs/ScrapedData.csv","/Users/michaelcraig/Desktop/Projects/FencingTracker.com-Webscaper-Visualizer/Outputs/TwoClubFencers.csv", "/Users/michaelcraig/Desktop/Projects/FencingTracker.com-Webscaper-Visualizer/Outputs/RegionData.csv")
