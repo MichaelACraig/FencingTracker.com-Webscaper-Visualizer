@@ -35,6 +35,12 @@ ANALYSIS WALKTHROUGH: <br>
     - maps <br>
     - sf <br>
 
-2. Set your working directory to where you have your repo stored <br>         
+2. Set your working directory to where you have your repo stored <br>
+
+3. Unzip geojsonio so it can be used within your working directory
+    -EXAMPLE: unzip("C:\\PATH\\MOREPATH\\EVENMOREPATH\\KEEPGOING\\Temp\\RtmpsXQV2B\\downloaded_packages\\geojsonio_0.11.3.zip")
+
+4. Adjust line 14 in code to your geojsonio file in your working directory
+
 
 
